@@ -1,0 +1,11 @@
+# Welcome to Jekyll!
+#
+
+# Site settings
+title: Healing Hands
+owner: Healing Hands # or company name
+first_published: 2018 # if migrating another site, the year of your first publish
+email: your-email@domain.com
+
+markdown: kramdown
+
