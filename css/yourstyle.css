@@ -15,3 +15,9 @@
     -o-transition: .2s ease-in;
     transition: .2s ease-in;
 }
+
+outline-danger:hover {
+    background: #FF7059;
+    border-color: #FF7059;
+    color: #fff;
+}
