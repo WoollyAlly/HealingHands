@@ -1,9 +1,8 @@
-/*
-Template Name: Wrapkit
-Author: Wrappixel
-Email: niravjoshi87@gmail.com
-File: scss
-*/
-/*============================================================== 
- You can write your style here and overwrite our style
- ============================================================== */
+.h4-topbar {
+    background: #5EDBFE;
+    background: -webkit-linear-gradient(legacy-direction(to right),#5EDBFE 0,#08C1F5 100%);
+    background: -webkit-gradient(linear,left top,right top,from(#5EDBFE),to(#08C1F5));
+    background: -webkit-linear-gradient(left,#5EDBFE 0,#08C1F5 100%);
+    background: -o-linear-gradient(left,#5EDBFE 0,#08C1F5 100%);
+    background: linear-gradient(to right,#5EDBFE 0,#08C1F5 100%);
+}
