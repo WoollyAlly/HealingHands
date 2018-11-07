@@ -6,3 +6,12 @@
     background: -o-linear-gradient(left,#5EDBFE 0,#08C1F5 100%);
     background: linear-gradient(to right,#5EDBFE 0,#08C1F5 100%);
 }
+
+.btn-outline-danger {
+    color: #FF7059;
+    background-color: transparent;
+    border-color: #FF7059;
+    -webkit-transition: .2s ease-in;
+    -o-transition: .2s ease-in;
+    transition: .2s ease-in;
+}
