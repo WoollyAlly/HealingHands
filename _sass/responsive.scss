@@ -20,20 +20,25 @@ File: scss
  ============================================================== */
 
 @media(max-width:1370px) {
+    .slider8 {
+    overflow-y:hidden;
     
+    .slide-image {
+      height:550px;
+      width:auto !important;
+    }
+  }
 }
 
 
 /*-- ============================================================== 
  Small Desktop & above all (1024px) 
- ============================================================== */ 
+ ============================================================== */
 
 @media(min-width:1024px) {
-    .contact4 {
-        .contact-box {
-            padding: 80px 105px 80px 0px;
-        }
-    } 
+    .page-wrapper {
+        padding-top: 150px;
+    }
     .hover-dropdown .navbar-nav {
         > .dropdown:hover {
             > .dropdown-menu {
@@ -64,81 +69,57 @@ File: scss
             display: flex !important;
         }
     }
-    .wrap-feature30-box{
-        left:0;
-        right:0;
-        margin: 0 auto;
-        top:50%;
-    }
-    .wrap-feature31-box,
-    .contact4,
-    .form6 {
-        .right-image{
-            position: relative;
-            bottom: -95px;
-            img{
-                width: 100%;
-                
+    .h4-nav-bar {
+        .donate-btn {
+            a {
+                display: block;
+                margin-left: 0px;
             }
         }
-    }
-    .contact1 {
-        .detail-box {
-            margin-top: 40px;
-        }
-        .p-r-40 {
-            padding-right: 0;
+        .nav-item .nav-link {
+            padding: 0 10px;
+            margin: 10px 0;
         }
     }
-    .contact4 {
-        .contact-box {
-            padding: 40px 0px 40px 0px;
+    .slider8 {
+        .slide-image {
+          left:-20%;
+          position:relative;
         }
-    }
-    .contact3 {
-        .c-detail {
-            text-align: center;
-            .m-r-20 {
-                margin-right: 0;
-            }
-            h6 {
-                margin-top: 20px;
-            }
+        .slide-text {
+          width:80% !important;
         }
-        .m-l-30 {
-            margin-left: 0;
+        .slide-content {
+          min-width:350px;
+          right:12%;
         }
-        .contact-box {
-            margin-top: 30px;
+        h2.text-white {
+          font-size:28px;
         }
-    }
-    .wrap-feature34-box {
-        .left-image{
-            position: relative;
-            top:-90px;
-        }
-    }
-    .po-absolute{
-        position: relative;
-    }
-    .contact2 .bg-image {
-        margin-right: 15px;
-        margin-left: 15px;
     }
     .topbar{
-        background: $themecolor; 
+        background: $white; 
         position: relative;
         &.animated{
             animation-duration:0s;
             &.slideInDown{
-                    -webkit-animation-name: none;
-                    animation-name: none;
+                -webkit-animation-name: none;
+                animation-name: none;
             }
         }
     }
-    
 }
 
+/*-- ============================================================== 
+ Only for banner
+ ============================================================== */
+
+@media (max-width: 992px) {
+    .banner {
+        height:auto !important;
+        padding:100px 0;
+    }
+}
 
 /*-- ============================================================== 
  Ipad & above all(768px) 
@@ -154,12 +135,6 @@ File: scss
  ============================================================== */
 
 @media(max-width:767px) {
-    /*This is for the Global*/
-    .b-l, .b-r{
-        border-left: 0px;
-        border-right: 0px;
-        border-bottom: 1px solid $border;
-    }
     .img-inline{
         li.half-width{
             width: 100%;
@@ -178,56 +153,59 @@ File: scss
             display: block;
         }
     }
-    /*This is for the feature 12*/
-    .wrap-feature-12 .uneven-box{
-        margin-top: 0px;
-    }
-    /*This is for the feature 16*/
-    .wrap-feature-16{
-        .with-text{
-            margin-left: 0px;
+    .feature2 {
+        h3 {
+            font-size: 18px;
         }
     }
-    /*This is for the feature 18*/
-    .wrap-feature-18 .icon-position .icon-round{
-        top:157px;
-        right:30px;
-    }
-    /*This is for the feature 22*/
-    .wrap-feature-22 .text-box, .wrap-feature23-box .text-box{
-        padding: 20px 0px;
-    }
-    .wrap-feature30-box{
-        position: relative;
-    }
-    .contact3 {
-        .p-l-0 {
-            padding-left: 20px;
+    /*This is for the banner*/
+    .banner {
+        padding:30px 0;
+        .appointment-form {
+            margin-top: 100px;
+            .p-30 {
+                padding: 15px;
+            }
         }
     }
-    .contact4 {
-        .contact-box {
-            padding-left: 15px;
-            padding-right: 15px;
+    #banner2 {
+        .left, .right {
+            padding:15px;
         }
     }
-    .modal2 {
-        .modal-bg {
-            padding: 30px; 
+    .slider8 {
+        .slide-text {
+          padding:0 !important;
+          width:100% !important;
+
         }
-    }
-    .modal3 {
-        .modal-bg {
-            padding: 50px 40px 60px;
+        .slide-content {
+          opacity:0.9;
         }
-    }
-    .modal4 {
-        .modal-bg {
-            padding: 40px;
+        .slide-image {
+          height:450px;
+          left:-30%;
         }
-    }
-    
+        .carousel-indicators {
+          bottom:-10px;
+        }
+  }
     .dropdown-submenu > .dropdown-menu.show {
         display: block;
     }
 }
+
+@media (max-width: 428px) {
+  .slider8 {
+    .slide-image {
+      left:-100%;
+    }
+    h3 {
+      font-size:24px;
+    }
+    .slide-content {
+      padding:30px;
+    }
+  }
+}
+
