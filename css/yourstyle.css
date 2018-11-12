@@ -6,6 +6,10 @@
     line-height: 30px;
 }
 
+.h3-navbar .navbar-brand {
+    padding-bottom: 15px;
+}
+
 .topbar.fixed-header .navbar .navbar-brand img {
     height: 70px;
     transition: 1s;
