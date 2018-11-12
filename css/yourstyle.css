@@ -5,3 +5,8 @@
     margin-bottom: 0;
     line-height: 30px;
 }
+
+.topbar.fixed-header .navbar .navbar-brand img {
+    height: 70px;
+    transition: 1s;
+}
