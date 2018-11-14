@@ -2,64 +2,312 @@
 <!-- ============================================================== -->
 <!-- Top header  -->
 <!-- ============================================================== -->
-<div class="topbar">
-    <div class="header4 po-relative">
-        <div class="h4-topbar">
-            <div class="container">
-                <nav class="navbar navbar-expand-lg h4-nav">
-                    <a class="hidden-lg-up">Navigation</a>
-                    <button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#header4" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="ti-menu"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="header4">
-                        <div class="hover-dropdown">
-                            <ul class="navbar-nav">
-                                <li class="nav-item dropdown mega-dropdown active">
-                                    <a class="nav-link" href="#"> Home </a>
+<!--<div class="topbar">-->
+<!--    <div class="header4 po-relative">-->
+<!--        <div class="h4-topbar">-->
+<!--            <div class="container">-->
+<!--                <nav class="navbar navbar-expand-lg h4-nav">-->
+<!--                    <a class="hidden-lg-up">Navigation</a>-->
+<!--                    <button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#header4" aria-expanded="false" aria-label="Toggle navigation">-->
+<!--                        <span class="ti-menu"></span>-->
+<!--                    </button>-->
+<!--                    <div class="collapse navbar-collapse" id="header4">-->
+<!--                        <div class="hover-dropdown">-->
+<!--                            <ul class="navbar-nav">-->
+<!--                                <li class="nav-item dropdown mega-dropdown active">-->
+<!--                                    <a class="nav-link" href="#"> Home </a>-->
+<!--                                </li>-->
+<!--                                <li class="nav-item">-->
+<!--                                    <a class="nav-link" href="#"> Our Missions </a>-->
+<!--                                </li>-->
+<!--                                <li class="nav-item">-->
+<!--                                    <a class="nav-link" href="#"> Our Team </a>-->
+<!--                                </li>-->
+<!--                                <li class="nav-item">-->
+<!--                                    <a class="nav-link" href="#"> News and Events </a>-->
+<!--                                </li>-->
+<!--                            </ul>-->
+<!--                        </div>-->
+<!--                        <ul class="navbar-nav ml-auto">-->
+<!--                            <li class="nav-item search dropdown"><a class="nav-link dropdown-toggle" href="javascript:void(0)" id="h4-sdropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-search"></i></a>-->
+<!--                                <div class="dropdown-menu b-none dropdown-menu-right animated fadeInDown" aria-labelledby="h4-sdropdown">-->
+<!--                                    <input class="form-control" type="text" placeholder="Type & hit enter" />-->
+<!--                                </div>-->
+<!--                            </li>-->
+<!--                        </ul>-->
+<!--                    </div>-->
+<!--                </nav>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="h4-navbar">-->
+<!--            <div class="container">-->
+<!--                <nav class="navbar navbar-expand-lg h4-nav-bar">-->
+<!--                    <a class="navbar-brand"><img src="images/logo.png" alt="wrapkit"/></a>-->
+<!--                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#h4-info" aria-controls="h4-info" aria-expanded="false" aria-label="Toggle navigation">-->
+<!--                        <span class="sl-icon-options-vertical"></span>-->
+<!--                    </button>-->
+<!--                    <div class="collapse navbar-collapse" id="h4-info">-->
+<!--                        <ul class="navbar-nav ml-auto text-uppercase">-->
+<!--                            <li class="nav-item">-->
+<!--                                <a class="nav-link b-r">-->
+<!--                                    <div class="display-6 m-r-10"><i class="icon-Mail"></i></div>-->
+<!--                                    <div><small>Email us at</small>-->
+<!--                                        <h6 class="font-bold font-14">info@wrappixel.com</h6></div>-->
+<!--                                </a>-->
+<!--                            </li>-->
+<!--                            <li class="nav-item donate-btn"><a href="#" class="btn btn-outline-primary">Donate now</a></li>-->
+<!--                        </ul>-->
+<!--                    </div>-->
+<!--                </nav>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
+
+<div class="topbar fixed-header animated slideInDown">
+            <div class="header6">
+                <div class="container po-relative">
+                    <nav class="navbar navbar-expand-lg h6-nav-bar">
+                        <a href="javascript:void(0)" class="navbar-brand"><img src="../assets/images/logos/white-text.png" alt="wrapkit"></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#h6-info" aria-controls="h6-info" aria-expanded="false" aria-label="Toggle navigation"><span class="ti-menu"></span></button>
+                        <div class="collapse navbar-collapse hover-dropdown font-14 ml-auto" id="h6-info">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item dropdown mega-dropdown"> <a class="nav-link dropdown-toggle" href="#" id="h6-mega-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  Demos <i class="fa fa-angle-down m-l-5"></i>
+                                </a>
+                                    <div class="dropdown-menu b-none font-14 animated fadeInUp" aria-labelledby="h6-mega-dropdown">
+                                        <div class="row">
+                                            <div class="col-lg-3 inside-bg hidden-md-down">
+                                                <div class="bg-img" style="background-image:url(../assets/images/innerpage/mega-bg.jpg)">
+                                                    <h3 class="text-white font-light">Most Powerfull Bootstrap 4 UI Kit</h3>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-2 col-md-6">
+                                                <ul class="list-style-none">
+                                                    <li>
+                                                        <h6>Niche Homepages</h6></li>
+                                                    <li><a href="../all-demos/demo-business/index.html">Business</a></li>
+                                                    <li><a href="../all-demos/demo-creative/index.html">Creative</a></li>
+                                                    <li><a href="../all-demos/demo-charity/index.html">Charity</a></li>
+                                                    <li><a href="../all-demos/demo-medical/index.html">Health &amp; Medical</a></li>
+                                                    <li><a href="../all-demos/demo-software-application/index.html">Software Application</a></li>
+                                                    <li><a href="../all-demos/demo-real-estate/index.html">Real Estate</a></li>
+                                                    <li><a href="../all-demos/demo-restaurant/index.html">Restaurant</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-lg-2 col-md-6">
+                                                <ul class="list-style-none">
+                                                    <li>
+                                                        <h6>&nbsp;</h6></li>
+                                                    <li><a href="../all-demos/demo-web-agency/index.html">Web-Agency</a></li>
+                                                    <li><a href="../all-demos/demo-fitness/index.html">Fitness</a></li>
+                                                    <li><a href="../all-demos/demo-accounting/index.html">Accounting</a></li>
+                                                    <li><a href="../all-demos/demo-onepage/index.html">One Page</a></li>
+                                                    <li><a href="../all-demos/demo-marketing-seo/index.html">Marketing / SEO</a></li>
+                                                    <li><a href="../all-demos/demo-industrial/index.html">Industrial</a></li>
+<li><a href="../all-demos/demo-cryptocurrency/index.html">Cryptocurrency</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-lg-2 col-md-6">
+                                                <ul class="list-style-none">
+                                                    <li>
+                                                        <h6>Landing Pages</h6></li>
+                                                    <li><a href="../all-demos/demo-landingpage-app/index.html">App Landing</a></li>
+                                                    <li><a href="../all-demos/demo-landingpage-medical/index.html">Health &amp; Medical</a></li>
+                                                    <li><a href="../all-demos/demo-landingpage-personal/index.html">Personal Landing</a></li>
+                                                    <li><a href="../all-demos/demo-landingpage-form/index.html">Form Landing</a></li>
+                                                    <li><a href="../all-demos/demo-landingpage-appointment/index.html">Appointment Landing</a></li>
+                                                    <li><a class="text-muted">More Coming soon...</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-lg-3 col-md-6">
+                                                <ul class="list-style-none">
+                                                    <li>
+                                                        <h6>Freelancer / Portfolio</h6></li>
+                                                    <li><a href="../all-demos/demo-freelancer1/index.html">Freelancer 1</a></li>
+                                                    <li><a href="../all-demos/demo-freelancer2/index.html">Freelancer 2</a></li>
+                                                    <li><a href="../all-demos/demo-photography1/index.html">Photographer Light</a></li>
+                                                    <li><a href="../all-demos/demo-photography2/index.html">Photographer Dark</a></li>
+                                                    <li><a href="../all-demos/demo-coming-soon/index.html">Comming Soon</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#"> Our Missions </a>
+                                <li class="nav-item dropdown mega-dropdown"> <a class="nav-link dropdown-toggle" href="#" id="h6-mega-dropdown2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  Sections <i class="fa fa-angle-down m-l-5"></i>
+                                </a>
+                                    <div class="dropdown-menu b-none font-14 animated fadeInUp" aria-labelledby="h6-mega-dropdown2">
+                                        <div class="row">
+                                            <div class="col-lg-4 inside-bg hidden-md-down">
+                                                <div class="bg-img" style="background-image:url(../assets/images/innerpage/mega-bg2.jpg)">
+                                                    <h3 class="text-white font-light">Create anything <br>with our amazing <br>sections</h3>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-2 col-md-4">
+                                                <ul class="list-style-none">
+                                                    <li>
+                                                        <h6>Headers &amp; Footers</h6></li>
+                                                    <li><a href="../wrapkit/sliders-static.html">Banners</a></li>
+                                                    <li><a href="../wrapkit/form-banners.html">Form Banners</a></li>
+                                                    <li><a href="../wrapkit/headers1.html">Navigation 1-10</a></li>
+                                                    <li><a href="../wrapkit/headers2.html">Navigation 11-20</a></li>
+                                                    <li><a href="../wrapkit/footers.html">Footers</a></li>
+                                                    <li><a href="../wrapkit/call-to-action.html">Call to Actions</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-lg-1 col-md-4">
+                                                <ul class="list-style-none">
+                                                    <li>
+                                                        <h6>Sliders</h6></li>
+                                                    <li><a href="../wrapkit/slider1.html">Slider1</a></li>
+                                                    <li><a href="../wrapkit/slider2.html">Slider2</a></li>
+                                                    <li><a href="../wrapkit/slider3.html">Slider3</a></li>
+                                                    <li><a href="../wrapkit/slider4.html">Slider4</a></li>
+                                                    <li><a href="../wrapkit/slider5.html">Slider5</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-lg-1 col-md-4">
+                                                <ul class="list-style-none">
+                                                    <li>
+                                                        <h6>&nbsp;</h6></li>
+                                                    <li><a href="../wrapkit/slider6.html">Slider6</a></li>
+                                                    <li><a href="../wrapkit/slider7.html">Slider7</a></li>
+                                                    <li><a href="../wrapkit/slider8.html">Slider8</a></li>
+                                                    <li><a href="../wrapkit/slider9.html">Slider9</a></li>
+                                                    <li><a href="../wrapkit/slider10.html">Slider10</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-lg-2 col-md-4">
+                                                <ul class="list-style-none">
+                                                    <li>
+                                                        <h6>Other Sections</h6></li>
+                                                    <li><a href="../wrapkit/contacts-forms.html">Contacts</a></li>
+                                                    <li><a href="../wrapkit/blog-homepage.html">Blogs</a></li>
+                                                    <li><a href="../wrapkit/pricing.html">Pricing</a></li>
+                                                    <li><a href="../wrapkit/ui-custom-modals.html">Popups / Modals</a></li>
+                                                    <li><a href="../wrapkit/team.html">Teams</a></li>
+                                                    <li><a href="../wrapkit/testimonial.html">Testimonials</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-lg-2 col-md-4">
+                                                <ul class="list-style-none">
+                                                    <li>
+                                                        <h6>Features</h6></li>
+                                                    <li><a href="../wrapkit/feature1.html">Features 1-10</a></li>
+                                                    <li><a href="../wrapkit/feature2.html">Features 11-20</a></li>
+                                                    <li><a href="../wrapkit/feature3.html">Features 21-30</a></li>
+                                                    <li><a href="../wrapkit/feature4.html">Features 31-40</a></li>
+                                                    <li><a href="../wrapkit/feature5.html">Features 41-50</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#"> Our Team </a>
+                                <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="h6-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  Pages <i class="fa fa-angle-down m-l-5"></i>
+                                </a>
+                                    <ul class="b-none dropdown-menu font-14 animated fadeInUp">
+                                        <li><a class="dropdown-item" href="../wrapkit/pages-aboutus.html">About Us</a></li>
+                                        <li><a class="dropdown-item" href="../wrapkit/pages-pricing.html">Pricing</a></li>
+                                        <li><a class="dropdown-item" href="../wrapkit/pages-services.html">Services</a></li>
+                                        <li class="divider" role="separator"></li>
+                                        <li class="dropdown-submenu"> <a class="dropdown-toggle dropdown-item" href="javascript:void(0)" aria-haspopup="true" aria-expanded="false">Portfolio <i class="fa fa-angle-right ml-auto"></i></a>
+                                            <ul class="dropdown-menu font-14 b-none animated flipInY">
+                                                <li><a class="dropdown-item" href="../wrapkit/pages-portfolio-one-column.html">Portfolio 1 Column</a></li>
+                                                <li><a class="dropdown-item" href="../wrapkit/pages-portfolio-two-column.html">Portfolio 2 Column</a></li>
+                                                <li><a class="dropdown-item" href="../wrapkit/pages-portfolio-three-column.html">Portfolio 3 Column</a></li>
+                                                <li class="divider" role="separator"></li>
+                                                <li><a class="dropdown-item" href="../wrapkit/pages-portfolio-masonry.html">Portfolio with Masonry</a></li>
+                                                <li class="divider" role="separator"></li>
+                                                <li><a class="dropdown-item" href="../wrapkit/pages-portfolio-with-popup.html">Portfolio with Popup</a></li>
+                                                <li><a class="dropdown-item" href="../wrapkit/pages-portfolio-detail.html">Portfolio Detail</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a class="dropdown-item" href="../wrapkit/pages-portfolio-detail.html">Portfolio Detail</a></li>
+                                        <li class="divider" role="separator"></li>
+                                        <li><a class="dropdown-item" href="../wrapkit/pages-blog.html">Blog</a></li>
+                                        <li><a class="dropdown-item" href="../wrapkit/pages-blog-detail.html">Blog Single</a></li>
+                                        <li><a class="dropdown-item" href="../wrapkit/pages-contact-us.html">Contact Us</a></li>
+                                    </ul>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#"> News and Events </a>
+                                <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="h6-dropdown1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  Shop <i class="fa fa-angle-down m-l-5"></i>
+                                </a>
+                                    <ul class="b-none dropdown-menu font-14 animated fadeInUp">
+                                        <li class="dropdown-submenu"> <a class="dropdown-toggle dropdown-item" href="javascript:void(0)" aria-haspopup="true" aria-expanded="false">Shop Listing <i class="fa fa-angle-right ml-auto"></i></a>
+                                            <ul class="dropdown-menu menu-right font-14 b-none animated flipInY">
+                                                <li><a class="dropdown-item font-medium">With Sidebar</a></li>
+                                                <li><a class="dropdown-item" href="shop-listing-2-column-sidebar.html">2 Columns</a></li>
+                                                <li><a class="dropdown-item" href="shop-listing-3-column-sidebar.html">3 Columns</a></li>
+                                                <li class="divider" role="separator"></li>
+                                                <li><a class="dropdown-item font-medium">Without Sidebar</a></li>
+                                                <li><a class="dropdown-item" href="shop-listing-3-column-nosidebar.html">3 Columns</a></li>
+                                                <li><a class="dropdown-item" href="shop-listing-4-column-nosidebar.html">4 Columns</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a class="dropdown-item" href="shop-detail.html">Shop Details</a></li>
+                                        <li><a class="dropdown-item" href="shop-cart.html">Shopping Cart</a></li>
+                                        <li><a class="dropdown-item" href="shop-checkout.html">Checkout</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown mega-dropdown"> <a class="nav-link dropdown-toggle" href="#" id="h6-mega-dropdown3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  Elements <i class="fa fa-angle-down m-l-5"></i>
+                                </a>
+                                    <div class="dropdown-menu b-none font-14 animated fadeInUp" aria-labelledby="h6-mega-dropdown3">
+                                        <div class="row">
+                                            <div class="col-lg-5 inside-bg hidden-md-down">
+                                                <div class="bg-img" style="background-image:url(../assets/images/innerpage/mega-bg2.jpg)">
+                                                    <h3 class="text-white font-light">Create anything <br>with our amazing <br>Elements</h3>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-2 col-md-4">
+                                                <ul class="list-style-none">
+                                                    <li><a href="../wrapkit/ui-breadcrumb.html">Breadcrumb</a></li>
+                                                    <li><a href="../wrapkit/ui-buttons.html">Buttons</a></li>
+                                                    <li><a href="../wrapkit/ui-bootstrap.html">Bootstrap Ui</a></li>
+                                                    <li><a href="../wrapkit/ui-cards.html">Cards</a></li>
+                                                    <li><a href="../wrapkit/ui-carousel.html">Carousel</a></li>
+                                                    <li><a href="../wrapkit/ui-counter.html">Counter</a></li>
+                                                    <li><a href="../wrapkit/ui-typography.html">Typography</a></li>
+                                                    <li><a href="../wrapkit/ui-dropdowns.html">Dropdowns</a></li>
+                                                    <li><a href="../wrapkit/ui-overlay.html">Overlays</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-lg-2 col-md-4">
+                                                <ul class="list-style-none">
+                                                    <li><a href="../wrapkit/ui-custom-modals.html">Custom Modal</a></li>
+                                                    <li><a href="../wrapkit/ui-form.html">Forms</a></li>
+                                                    <li><a href="../wrapkit/ui-grid.html">Grid</a></li>
+                                                    <li><a href="../wrapkit/ui-list-media.html">List media</a></li>
+                                                    <li><a href="../wrapkit/ui-modals.html">Modals</a></li>
+                                                    <li><a href="../wrapkit/ui-tables.html">Tables</a></li>
+                                                    <li><a href="../wrapkit/ui-video-inline.html">Videos</a></li>
+                                                    <li><a href="../wrapkit/ui-animation.html">Animations</a></li>
+                                                    <li><a href="../wrapkit/ui-iconmind.html">Iconmind</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-lg-3 col-md-4">
+                                                <ul class="list-style-none">
+                                                    <li><a href="../wrapkit/ui-notification.html">Notifications</a></li>
+                                                    <li><a href="../wrapkit/ui-progressbar.html">Progressbar</a></li>
+                                                    <li><a href="../wrapkit/ui-tab.html">Tabs</a></li>
+                                                    <li><a href="../wrapkit/ui-timeline.html">Timeline</a></li>
+                                                    <li><a href="../wrapkit/ui-tooltip-popover.html">Tooltip / Popover</a></li>
+                                                    <li><a href="../wrapkit/ui-typed-text.html">Typed Text</a></li>
+                                                    <li><a href="../wrapkit/ui-utility-classes.html">Utility Classes</a></li>
+                                                    <li><a href="../wrapkit/ui-accordion.html">Accordions</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </li>
                             </ul>
+                            <div class="act-buttons">
+                                <button class="btn btn-success-gradiant font-14">Buy Now</button>
+                            </div>
                         </div>
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item search dropdown"><a class="nav-link dropdown-toggle" href="javascript:void(0)" id="h4-sdropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-search"></i></a>
-                                <div class="dropdown-menu b-none dropdown-menu-right animated fadeInDown" aria-labelledby="h4-sdropdown">
-                                    <input class="form-control" type="text" placeholder="Type & hit enter" />
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
+                    </nav>
+                </div>
             </div>
         </div>
-        <div class="h4-navbar">
-            <div class="container">
-                <nav class="navbar navbar-expand-lg h4-nav-bar">
-                    <a class="navbar-brand"><img src="images/logo.png" alt="wrapkit"/></a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#h4-info" aria-controls="h4-info" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="sl-icon-options-vertical"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="h4-info">
-                        <ul class="navbar-nav ml-auto text-uppercase">
-                            <li class="nav-item">
-                                <a class="nav-link b-r">
-                                    <div class="display-6 m-r-10"><i class="icon-Mail"></i></div>
-                                    <div><small>Email us at</small>
-                                        <h6 class="font-bold font-14">info@wrappixel.com</h6></div>
-                                </a>
-                            </li>
-                            <li class="nav-item donate-btn"><a href="#" class="btn btn-outline-primary">Donate now</a></li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-        </div>
-    </div>
-</div>
