@@ -10,7 +10,8 @@
     padding-bottom: 15px;
 }
 
-.topbar.fixed-header .navbar .navbar-brand img {
+.navbar-brand img {
     height: 70px;
     transition: 1s;
 }
+
