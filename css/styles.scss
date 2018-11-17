@@ -30,6 +30,12 @@
     color: #212D3C;
 }
 
-.topbar.fixed-header {
+.topbar, .topbar.fixed-header {
     background: #fff;
+}
+
+.h4-topbar {
+    background: #2cdd9b;
+    background: -webkit-linear-gradient(legacy-direction(to right),#2cdd9b 0,#1dc8cc 100%);
+    background: linear-gradient(to right,#2cdd9b 0,#1dc8cc 100%);
 }
