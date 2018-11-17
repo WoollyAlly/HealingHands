@@ -39,3 +39,7 @@
     background: -webkit-linear-gradient(legacy-direction(to right),$info 0,$primary 100%);
     background: linear-gradient(to right,$info 0,$primary 100%);
 }
+
+.carousel-item {
+    max-height: 700px;
+}
