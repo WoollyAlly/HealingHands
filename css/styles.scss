@@ -98,10 +98,6 @@ slide 1
 }
 @media (max-width: 1100px) {
 	.slider8 {
-		.slide-image {
-			left:-20%;
-			position:relative;
-		}
 		.slide-text {
 			width:80% !important;
 		}
@@ -124,6 +120,11 @@ slide 1
 }
 @media (max-width:767px) {
 	.slider8 {
+		.slide-image {
+			left:-20%;
+			position:relative;
+			width:auto;
+		}
 		.slide-text {
 			padding:0 !important;
 			width:100% !important;
