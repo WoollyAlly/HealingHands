@@ -121,7 +121,6 @@ slide 1
 @media (max-width:767px) {
 	.slider8 {
 		.slide-image {
-			left:-20%;
 			position:relative;
 			width:auto;
 		}
@@ -135,9 +134,6 @@ slide 1
 		}
 		.carousel-item {
 			height:450px;
-		}
-		.slide-image {
-			left:-30%;
 		}
 		.carousel-indicators {
 			bottom:-10px;
