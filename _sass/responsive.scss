@@ -22,11 +22,6 @@ File: scss
 @media(max-width:1370px) {
     .slider8 {
     overflow-y:hidden;
-    
-    .slide-image {
-      height:550px;
-      width:auto !important;
-    }
   }
 }
 
@@ -82,10 +77,6 @@ File: scss
         }
     }
     .slider8 {
-        .slide-image {
-          left:-20%;
-          position:relative;
-        }
         .slide-text {
           width:80% !important;
         }
@@ -182,10 +173,6 @@ File: scss
         .slide-content {
           opacity:0.9;
         }
-        .slide-image {
-          height:450px;
-          left:-30%;
-        }
         .carousel-indicators {
           bottom:-10px;
         }
@@ -197,9 +184,6 @@ File: scss
 
 @media (max-width: 428px) {
   .slider8 {
-    .slide-image {
-      left:-100%;
-    }
     h3 {
       font-size:24px;
     }
