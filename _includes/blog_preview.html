@@ -12,7 +12,7 @@
             <!-- Column -->
         </div>
         <div class="row m-t-40">
-             {% for post in site.posts %}
+             {% for post in site.posts limit: 3 %}
                 <div class="col-md-4">
                     <div class="card" data-aos="flip-left" data-aos-duration="1200">
                         <a href="#"><img class="card-img-top" src="{{post.image}}" alt="wrappixel kit"></a>
