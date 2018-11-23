@@ -1,1 +1,3 @@
-image_path: 'test'
+---
+image_path: /images/placeholder.jpg
+---
