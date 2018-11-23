@@ -1,3 +1,4 @@
 ---
-image_path: /images/placeholder.jpg
+image_path: /images/blog2.jpg
 ---
+
