@@ -12,36 +12,17 @@
             <!-- Column -->
         </div>
         <div class="row m-t-40">
-            <!-- Column -->
-            <div class="col-md-4">
-                <div class="card" data-aos="flip-left" data-aos-duration="1200">
-                    <a href="#"><img class="card-img-top" src="images/blog1.jpg" alt="wrappixel kit"></a>
-                    <div class="date-pos bg-info-gradiant">Nov<span>15</span></div>
-                    <h5 class="font-medium m-t-30"><a href="#" class="link">There is one really simple way to donate to our cause.</a></h5>
-                    <p class="m-t-20">We ask that you go to smile.amazon.com and choose Healing Hands Medical Mission as your non-profit of choice when doing your holiday shopping.</p>
-                    <a data-toggle="collapse" href="#" class="linking text-themecolor m-t-10">Learn More <i class="ti-arrow-right"></i></a>
+             {% for post in site.posts %}
+                <div class="col-md-4">
+                    <div class="card" data-aos="flip-left" data-aos-duration="1200">
+                        <a href="#"><img class="card-img-top" src="{{post.image}}" alt="wrappixel kit"></a>
+                        <div class="date-pos bg-info-gradiant">Nov<span>15</span></div>
+                        <h5 class="font-medium m-t-30"><a href="#" class="link">{{post.title}}</a></h5>
+                        <p class="m-t-20">{{post.description}}</p>
+                        <a data-toggle="collapse" href="#" class="linking text-themecolor m-t-10">Learn More <i class="ti-arrow-right"></i></a>
+                    </div>
                 </div>
-            </div>
-            <!-- Column -->
-            <div class="col-md-4">
-                <div class="card" data-aos="flip-up" data-aos-duration="1200">
-                    <a href="#"><img class="card-img-top" src="images/blog2.jpg" alt="wrappixel kit"></a>
-                    <div class="date-pos bg-info-gradiant">Nov<span>13</span></div>
-                    <h5 class="font-medium m-t-30"><a href="#" class="link">This is the group at the hospital today.</a></h5>
-                    <!--<p class="m-t-20">Business Park, Opp. Corns Sam Restaurant, New Yoark, US</p>-->
-                    <a data-toggle="collapse" href="#" class="linking text-themecolor m-t-10">Learn More <i class="ti-arrow-right"></i></a>
-                </div>
-            </div>
-            <!-- Column -->
-            <div class="col-md-4">
-                <div class="card" data-aos="flip-right" data-aos-duration="1200">
-                    <a href="#"><img class="card-img-top" src="images/blog3.jpg" alt="wrappixel kit"></a>
-                    <div class="date-pos bg-info-gradiant">Nov<span>9</span></div>
-                    <h5 class="font-medium m-t-30"><a href="#" class="link">Safer Births</a></h5>
-                    <p class="m-t-20">One thing we have made a priority of our mission is help make the miracle of birth safer for the indigenous patients we commonly see in the rural aree.</p>
-                    <a data-toggle="collapse" href="#" class="linking text-themecolor m-t-10">Learn More <i class="ti-arrow-right"></i></a>
-                </div>
-            </div>
+             {% endfor %}
         </div>
     </div>
 </div>
