@@ -1,4 +1,5 @@
 ---
+image_path: /images/background.png
 ---
 
 We ask that you go to smile.amazon.com and choose Healing Hands Medical Mission as your non-profit of choice when doing your holiday shopping.
