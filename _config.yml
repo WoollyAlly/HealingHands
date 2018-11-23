@@ -12,9 +12,6 @@ sass:
 markdown: kramdown
 
 _options:
-  image_path:
-    width: 90
-    height: 120
-    resize_style: "contain"
-    mime_type: "image/jpeg"
-    expandable: true
+  blog_image_path:
+    width: 350
+    height: 197
