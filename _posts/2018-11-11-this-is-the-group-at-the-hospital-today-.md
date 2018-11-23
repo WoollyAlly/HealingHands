@@ -1,4 +1,4 @@
 ---
-blog_image_path: /images/blog2.jpg
+blog_image_path: /uploads/blog2.jpg
 ---
 
