@@ -14,8 +14,9 @@
         <div class="row m-t-40">
             {% assign animations = {"1": "flip-left", "2": "flip-up", "3": "flip-right" } %}
             {% for post in site.posts limit: 3 %}
+            {% assign animation = animations[forloop.index] %}
                 <div class="col-md-4">
-                    <div class="card" data-aos={{ animations[forloop.index] }} data-aos-duration="1200">
+                    <div class="card" data-aos="{{ animation }}" data-aos-duration="1200">
                         <img class="card-img-top" src="{{post.blog_image_path}}" alt="{{post.title}}">
                         <div class="date-pos bg-info-gradiant">{{ post.date | date: '%b' }}<span>{{ post.date | date: '%d' }}</span></div>
                         <h5 class="font-medium m-t-30">{{ post.title }}</h5>
