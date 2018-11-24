@@ -12,7 +12,7 @@
             <!-- Column -->
         </div>
         <div class="row m-t-40">
-            {% assign animations = "flip-left","flip-up","flip-right" | split: "," %}
+            {% assign animations = "flip-left,flip-up,flip-right" | split: "," %}
             {% for post in site.posts limit: 3 %}
                 <div class="col-md-4">
                     <div class="card" data-aos="{{ animations[forloop.index0] }}" data-aos-duration="1200">
