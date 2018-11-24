@@ -16,7 +16,9 @@
             {% for post in site.posts limit: 3 %}
                 <div class="col-md-4">
                     <div class="card" data-aos="{{ animations[forloop.index0] }}" data-aos-duration="1200">
-                        <img class="card-img-top" src="{{post.blog_image_path}}" alt="{{post.title}}">
+                        <div class="image-container">
+                            <img class="card-img-top" src="{{post.blog_image_path}}" alt="{{post.title}}">
+                        </div>
                         <div class="date-pos bg-info-gradiant">{{ post.date | date: '%b' }}<span>{{ post.date | date: '%d' }}</span></div>
                         <h5 class="font-medium m-t-30">{{ post.title }}</h5>
                         <p class="m-t-20">{{ post.excerpt }}</p>
