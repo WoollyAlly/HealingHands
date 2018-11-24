@@ -14,7 +14,7 @@
         <div class="row m-t-40">
             {% assign animations = ["flip-left", "flip-up", "flip-right"] %}
             {% for post in site.posts limit: 3 %}
-            {% assign animation = animations[forloop.index - 1] %}
+                {% assign animation = animations[forloop.index - 1] %}
                 <div class="col-md-4">
                     <div class="card" data-aos="{{ animation }}" data-aos-duration="1200">
                         <img class="card-img-top" src="{{post.blog_image_path}}" alt="{{post.title}}">
