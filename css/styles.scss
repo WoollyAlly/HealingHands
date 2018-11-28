@@ -29,6 +29,15 @@
 
 @import 'https://fonts.googleapis.com/css?family=Playfair+Display:300,400,500,600,700,800';
 
+.navbar-brand img {
+    left: -43px;
+    top: -5px;
+    position: relative;
+}
+.topbar.fixed-header .navbar .navbar-brand img {
+    left: -30px;
+}
+
 .h6-nav-bar .navbar-nav .nav-link {
     color: #fff;
 }
