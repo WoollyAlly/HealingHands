@@ -52,7 +52,7 @@
     -moz-transform: scale(1.3);
     -o-transform: scale(1.3); } }
 
-.slider4 .slide-image {
+#slider .slide-image {
   animation: imagescale 15s ease-in-out infinite alternate;
   -webkit-animation: imagescale 15s ease-in-out infinite alternate;
   -moz-animation: imagescale 15s ease-in-out infinite alternate;
