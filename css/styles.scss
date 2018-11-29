@@ -29,6 +29,11 @@
 
 @import 'https://fonts.googleapis.com/css?family=Playfair+Display:300,400,500,600,700,800';
 
+img.slide-image {
+    animation: imagescale 15s ease-in-out infinite alternate;
+    -webkit-animation: imagescale 15s ease-in-out infinite alternate;
+}
+
 .navbar-brand .logo {
     position: relative;
     left: -43px;
