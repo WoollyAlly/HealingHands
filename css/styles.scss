@@ -29,6 +29,16 @@
 
 @import 'https://fonts.googleapis.com/css?family=Playfair+Display:300,400,500,600,700,800';
 
+
+
+.bs-slider .bs-slider-overlay {
+    z-index: 1;
+}
+
+.slide-text{
+    z-index: 2;
+}
+
 .navbar-brand .logo {
     position: relative;
     left: -43px;
