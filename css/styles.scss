@@ -29,6 +29,13 @@
 
 @import 'https://fonts.googleapis.com/css?family=Playfair+Display:300,400,500,600,700,800';
 
+#slider-sec .carousel-indicators li {
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+}
+
 .footer6 .round-social a:hover {
     color: $facebook;
 }
