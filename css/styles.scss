@@ -47,6 +47,10 @@
     }
 }
 
+#slider .bs-slider .bs-slider-overlay {
+    background-color: rgba(0, 0, 0, 0.10);
+}
+
 .bs-slider .bs-slider-overlay {
     z-index: 1;
 }
