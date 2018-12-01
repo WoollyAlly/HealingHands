@@ -29,7 +29,7 @@
 
 @import 'https://fonts.googleapis.com/css?family=Playfair+Display:300,400,500,600,700,800';
 
-.static-slider2{
+#slider{
     h1{    
         font-size: 69px;
         font-weight: 800;
@@ -38,7 +38,7 @@
 }
 
 @media(max-width:767px) {
-.static-slider2{
+#slider{
         h1{
             font-weight: 700;
             line-height: 50px;
