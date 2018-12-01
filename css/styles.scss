@@ -39,6 +39,10 @@
         font-weight: 800;
         line-height: 70px;
     }
+	h2 {
+		font-size:20px;
+		line-height:28px;
+	}
 }
 
 @media(max-width:767px) {
@@ -47,6 +51,9 @@
             font-weight: 700;
             line-height: 30px;
             font-size: 32px;
+        }
+        h2 {
+            font-size: 14px;
         }
     }
 }
@@ -121,10 +128,6 @@ slide 1
 		position:relative;
 	}
 	.slide1 {
-		h2 {
-			font-size:20px;
-			line-height:28px;
-		}
 		label, b {
 			-webkit-animation-delay: 0.7s;
 			animation-delay: 0.7s;
