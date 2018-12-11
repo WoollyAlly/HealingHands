@@ -2,9 +2,12 @@
     <section id="slider-sec" class="slider8">
         <div id="slider" class="carousel bs-slider control-round indicators-line" data-ride="carousel" data-interval="7000">
             <ol class="carousel-indicators">
-                <li data-target="#slider" data-slide-to="0" class="active"></li>
-                <li data-target="#slider" data-slide-to="1"></li>
-                <li data-target="#slider" data-slide-to="2"></li>
+                {% for post in site.posts %}
+                    {% if forloop.first %}
+                        {% assign active = "active"%}
+                    {% endif %}
+                    <li data-target="#slider" data-slide-to="{{ forloop.index0 }}" class="{{ active }}"></li>
+                {% endfor %}
             </ol>
             <!-- Wrapper For Slides -->
             <div class="carousel-inner" role="listbox">
