@@ -2,7 +2,7 @@
     <section id="slider-sec" class="slider8">
         <div id="slider" class="carousel bs-slider control-round indicators-line" data-ride="carousel" data-interval="7000">
             <ol class="carousel-indicators">
-                {% for post in site.posts %}
+                {% for post in include.images %}
                     {% if forloop.first %}
                         {% assign active = "active"%}
                     {% endif %}
