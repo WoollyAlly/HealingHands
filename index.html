@@ -1,7 +1,7 @@
 ---
 layout: default
-title: We exist to end needless suffering
-subtitle: Existimos para acabar con el sufrimiento innecesario
+banner_title: We exist to end needless suffering
+banner_subtitle: Existimos para acabar con el sufrimiento innecesario
 ---
 
 <!DOCTYPE html>
@@ -49,7 +49,7 @@ subtitle: Existimos para acabar con el sufrimiento innecesario
         {% include header.html %}
         <div class="page-wrapper">
             <div class="container-fluid">
-                {% include banner.html title=page.title %}
+                {% include banner.html title=page.banner_title subtitle=page.banner_subtitle %}
                 {% include vision.html %}
                 {% include why.html %}
                 {% include blog_preview.html %}
