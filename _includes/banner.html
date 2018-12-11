@@ -13,7 +13,10 @@
             <div class="carousel-inner" role="listbox">
                 
                 {% for image in include.images %}
-                    <div class="carousel-item active">
+                    {% if forloop.first %}
+                        {% assign active = "active"%}
+                    {% endif %}
+                    <div class="carousel-item {{ active }}">
                         <div class="bs-slider-overlay"></div>
                         <img src="{{image.image_path}}" alt="We are Digital Agency" class="slide-image animated fadeIn" data-animation="animated fadeIn">
                         <div class="slide-text slide_style_left slide1">
