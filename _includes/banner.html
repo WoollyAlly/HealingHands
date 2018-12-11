@@ -5,6 +5,8 @@
                 {% for image in include.images %}
                     {% if forloop.first %}
                         {% assign active = "active"%}
+                    {% else %}
+                        {% assign active = ""%}
                     {% endif %}
                     <li data-target="#slider" data-slide-to="{{ forloop.index0 }}" class="{{ active }}"></li>
                 {% endfor %}
@@ -15,6 +17,8 @@
                 {% for image in include.images %}
                     {% if forloop.first %}
                         {% assign active = "active"%}
+                    {% else %}
+                        {% assign active = ""%}
                     {% endif %}
                     <div class="carousel-item {{ active }}">
                         <div class="bs-slider-overlay"></div>
