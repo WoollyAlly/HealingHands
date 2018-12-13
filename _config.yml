@@ -1,22 +1,23 @@
-# Welcome to Jekyll!
-#
-
-# Site settings
+---
 title: Healing Hands
-owner: Healing Hands # or company name
-first_published: 2018 # if migrating another site, the year of your first publish
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+owner: Healing Hands
+first_published: 2018
 email: info@healinghandsmission.com
 address: P.O. Box 864, St. Charles, IL 60174
 sass:
-    style: compressed
+  style: compressed
 markdown: kramdown
-
 paginate: 10
-
 paginate_path: "/news-and-events/page:num/"
-
 _options:
   blog_image_path:
     width: 350
     height: 197
-    
