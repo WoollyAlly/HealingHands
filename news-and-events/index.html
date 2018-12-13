@@ -10,14 +10,12 @@ layout: default
 
                 {% for post in paginator.posts %}
                     <div class="mini-spacer">
-                        <a href="#"><img src="../assets/images/innerpage/blog1.jpg" alt="wrapkit" class="img-fluid"/></a>
+                        <a href="#"><img src="{{post.blog_image_path}}" alt="{{post.title}}" class="img-fluid"/></a>
                         <ul class="text-uppercase m-t-40 list-inline font-13 font-medium">
-                            <li><a href="#">John Deo</a></li>
-                            <li><a href="#">NOV 08, 2018 </a></li>
-                            <li><a href="#" class="text-info">NEWS</a></li>
+                            <li><a href="#">{{ post.date | date: '%b' }}</a></li>
                         </ul>
-                        <h2 class="title font-light"><a href="#" class="link">Wrapkit is about to release and we are really very excited about it</a></h2>
-                        <p class="m-t-30 m-b-30">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec facilisis nullano volutpat justo. Nulla tempus ultricies feugiat. Duis magna risus, luctus id urna dapibus condimentum dui. Maecenas tempor non ex eu vehicula. Sed sit placerat velit,</p>
+                        <h2 class="title font-light"><a href="#" class="link">{{post.title}}</a></h2>
+                        <p class="m-t-30 m-b-30">{{ post.body }}</p>
                         <a href="#" class="font-13">CONTINUE READING</a>
                     </div>
                     <!-- Blog  -->
