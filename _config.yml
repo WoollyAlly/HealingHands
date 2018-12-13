@@ -11,7 +11,12 @@ sass:
     style: compressed
 markdown: kramdown
 
+paginate: 10
+
+paginate_path: "/news-and-events/page:num/"
+
 _options:
   blog_image_path:
     width: 350
     height: 197
+    
