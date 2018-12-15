@@ -6,3 +6,30 @@ banner_image: images/dsc01939.jpg
 ---
 
 {% include mini-banner.html title=page.banner_title subtitle=page.banner_subtitle image=page.banner_image %}
+
+<div class="spacer feature2" id="work">
+    <div class="container">
+        <!-- Row  -->
+        <div class="row justify-content-center">
+            <div class="col-md-7 text-center">
+                <h2 class="title text-white">Project with light box / Popup</h2>
+                <h6 class="subtitle">You can relay on our amazing features list and also our customer services will be great experience for you without doubt and in no-time</h6>
+            </div>
+        </div>
+        <!-- Row  -->
+        <div class="row m-t-40 popup-gallery">
+            <!-- Column -->
+            {% for mission in site.missions %}
+                {% for image in site.static_files %}
+                    {% if image.path contains 'dsc' %}
+                        <div class="col-md-4">
+                            <div class="card">
+                                <a href="{{ image.path }}" class="img-ho" title="{{ image.path }}"><img class="card-img-top" src="{{ image.path }}" alt="{{ image.path }}"></a>
+                            </div>
+                        </div>
+                    {% endif %}
+                {% endfor %}
+            {% endfor %}
+        </div>
+    </div>
+</div>
