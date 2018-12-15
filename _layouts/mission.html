@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 {% assign first_image = site.static_files | where:"path" contains 'dsc'  | first %}
 {% include mini-banner.html title=page.title subtitle=page.banner_subtitle image=first_image %}
 
