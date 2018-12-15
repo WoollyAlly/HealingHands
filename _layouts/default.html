@@ -65,24 +65,8 @@
     <script src="assets/node_modules/jquery.touchSwipe.min.js"></script>
     <script src="assets/node_modules/bootstrap-touch-slider/bootstrap-touch-slider.js"></script>
     <script src="../assets/node_modules/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
-    
-    $('.popup-gallery').magnificPopup({
-        delegate: 'a',
-        type: 'image',
-        tLoading: 'Loading image #%curr%...',
-        mainClass: 'mfp-img-mobile',
-        gallery: {
-            enabled: true,
-            navigateByImgClick: true,
-            preload: [0, 1] // Will preload 0 - before current, and 1 after the current image
-        },
-        image: {
-            tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
-            titleSrc: function(item) {
-                return item.el.attr('title') + '<small>by Jon Doe</small>';
-            }
-        }
-    });
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/portfolio.js"></script>
     <script type="text/javascript">
     /*******************************/
     // this is for the testimonial 1
