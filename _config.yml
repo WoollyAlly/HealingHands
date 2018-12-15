@@ -5,7 +5,7 @@ collections:
   missions:
     title: Missions
     output: true
-    permalink: /missions/:name
+    permalink: "/missions/:name"
   posts:
     title: Posts
     output: true
