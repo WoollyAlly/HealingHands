@@ -20,6 +20,10 @@ banner_image: images/dsc01939.jpg
         <div class="row m-t-40 popup-gallery portfolio-box4">
             <!-- Column --> 
             {% for mission in site.missions %}
+            
+              <div class="cookie">
+                <h2><a href="{{ mission.url }}">{{ mission.title }}</a></h2>
+              </div>
                 {% for image in site.static_files %}
                     {% if image.path contains 'dsc' %}
                         <div class="col-lg-4 col-md-6 filter">
