@@ -22,7 +22,7 @@ banner_image: images/dsc01939.jpg
             {% for mission in site.missions %}
                 {% for image in site.static_files %}
                     {% if image.path contains 'dsc' %}
-                        <div class="col-lg-4 col-md-6 filter ">
+                        <div class="col-lg-4 col-md-6 filter">
                             <div class="card">
                                 <a href="{{ image.path }}" class="img-ho" title="">
                                     <img class="card-img-top" src="{{ image.path }}" alt="{{ image.path }}">
