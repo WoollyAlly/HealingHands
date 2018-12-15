@@ -1,0 +1,73 @@
+<div class="bg-light">
+    <section id="slider-sec" class="slider8">
+        <div id="slider" class="carousel bs-slider control-round indicators-line" data-ride="carousel" data-interval="7000">
+            <ol class="carousel-indicators">
+                {% for image in include.images %}
+                    {% if forloop.first %}
+                        {% assign active = "active"%}
+                    {% else %}
+                        {% assign active = ""%}
+                    {% endif %}
+                    <li data-target="#slider" data-slide-to="{{ forloop.index0 }}" class="{{ active }}"></li>
+                {% endfor %}
+            </ol>
+            <!-- Wrapper For Slides -->
+            <div class="carousel-inner" role="listbox">
+                
+                {% for image in include.images %}
+                    {% if forloop.first %}
+                        {% assign active = "active"%}
+                    {% else %}
+                        {% assign active = ""%}
+                    {% endif %}
+                    <div class="carousel-item {{ active }}">
+                        <div class="bs-slider-overlay"></div>
+                        <img src="{{image.image_path}}" alt="We are Digital Agency" class="slide-image animated fadeIn" data-animation="animated fadeIn">
+                        <div class="slide-text slide_style_left slide1">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-6 align-self-center" data-aos="fade-right" data-aos-duration="1200">
+                                        <h1 class="title text-white">{{ include.title }}<span class="text-megna">.</span></h1>
+                                        <h2 class="subtitle text-white">{{ include.subtitle }}</h2>
+                                        <a class="btn btn-danger-gradiant btn-md btn-arrow m-t-20 m-b-10" data-toggle="collapse" href=""><span>Donate Now <i class="ti-arrow-right"></i></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+                
+                <!--<div class="carousel-item">-->
+                <!--    <div class="bs-slider-overlay"></div>-->
+                <!--    <img src="images/dsc015812.jpg" alt="We are Digital Agency" class="slide-image animated fadeIn" data-animation="animated fadeIn">-->
+                <!--    <div class="slide-text slide_style_left slide1">-->
+                <!--        <div class="container">-->
+                <!--            <div class="row">-->
+                <!--                <div class="col-md-6 align-self-center" data-aos="fade-right" data-aos-duration="1200">-->
+                <!--                    <h1 class="title text-white">{{ include.title }}<span class="text-megna">.</span></h1>-->
+                <!--                    <h2 class="subtitle text-white">{{ include.subtitle }}</h2>-->
+                <!--                    <a class="btn btn-danger-gradiant btn-md btn-arrow m-t-20 m-b-10" data-toggle="collapse" href=""><span>Donate Now <i class="ti-arrow-right"></i></span></a>-->
+                <!--                </div>-->
+                <!--            </div>-->
+                <!--        </div>-->
+                <!--    </div>-->
+                <!--</div>-->
+                <!--<div class="carousel-item">-->
+                <!--    <div class="bs-slider-overlay"></div>-->
+                <!--    <img src="images/dsc01864.jpg" alt="We are Digital Agency" class="slide-image animated fadeIn" data-animation="animated fadeIn">-->
+                <!--     <div class="slide-text slide_style_left slide1">-->
+                <!--        <div class="container">-->
+                <!--            <div class="row">-->
+                <!--                <div class="col-md-6 align-self-center" data-aos="fade-right" data-aos-duration="1200">-->
+                <!--                    <h1 class="title text-white">{{ include.title }}<span class="text-megna">.</span></h1>-->
+                <!--                    <h2 class="subtitle text-white">{{ include.subtitle }}</h2>-->
+                <!--                    <a class="btn btn-danger-gradiant btn-md btn-arrow m-t-20 m-b-10" data-toggle="collapse" href=""><span>Donate Now <i class="ti-arrow-right"></i></span></a>-->
+                <!--                </div>-->
+                <!--            </div>-->
+                <!--        </div>-->
+                <!--    </div>-->
+                <!--</div>-->
+            </div>
+        </div>
+    </section>
+</div>
