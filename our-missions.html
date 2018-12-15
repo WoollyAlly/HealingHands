@@ -2,40 +2,7 @@
 layout: default
 banner_title: Our Missions
 banner_subtitle: 
-banner_image: "/images/dsc01939.jpg"
+banner_image: /images/dsc01939.jpg
 ---
 
 {% include mini-banner.html title=page.banner_title subtitle=page.banner_subtitle image=page.banner_image %}
-
-<div class="portfolio4 spacer up" id="work">
-    <div class="container">
-        <!-- Row  -->
-        <div class="row justify-content-center">
-            <div class="col-md-7 text-center">
-                <h2 class="title text-white">Project with light box / Popup</h2>
-                <h6 class="subtitle">You can relay on our amazing features list and also our customer services will be great experience for you without doubt and in no-time</h6>
-            </div>
-        </div>
-        <!-- Row  -->
-        <div class="row m-t-40 popup-gallery portfolio-box4">
-            <!-- Column --> 
-            {% for mission in site.missions %}
-            
-              <div class="cookie">
-                <h2><a href="{{ mission.url }}">{{ mission.title }}</a></h2>
-              </div>
-                {% for image in site.static_files %}
-                    {% if image.path contains 'dsc' %}
-                        <div class="col-lg-4 col-md-6 filter">
-                            <div class="card">
-                                <a href="{{ image.path }}" class="img-ho" title="">
-                                    <img class="card-img-top" src="{{ image.path }}" alt="{{ image.path }}">
-                                </a>
-                            </div>
-                        </div>
-                    {% endif %}
-                {% endfor %}
-            {% endfor %}
-        </div>
-    </div>
-</div>
