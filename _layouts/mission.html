@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+{% include mini-banner.html title=page.title subtitle=page.banner_subtitle image=page.banner_image %}
+
+<div class="portfolio4 spacer up" id="work">
+    <div class="container">
+        <!-- Row  -->
+        <div class="row justify-content-center">
+            <div class="col-md-7 text-center">
+                <h6 class="subtitle">{{ page.content }}</h6>
+            </div>
+        </div>
+        <!-- Row  -->
+        <div class="row m-t-40 popup-gallery portfolio-box4">
+            <!-- Column --> 
+            {% for image in site.static_files %}
+                {% if image.path contains 'dsc' %}
+                    <div class="col-lg-4 col-md-6 filter">
+                        <div class="card">
+                            <a href="{{ image.path }}" class="img-ho" title="">
+                                <img class="card-img-top" src="{{ image.path }}" alt="{{ image.path }}">
+                            </a>
+                        </div>
+                    </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</div>
