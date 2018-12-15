@@ -1,8 +1,8 @@
 ---
 layout: default
 ---
-
-{% include mini-banner.html title=page.title subtitle=page.banner_subtitle image=page.banner_image %}
+{% assign first_image = site.static_files | where:"path" contains 'dsc'  | first %}
+{% include mini-banner.html title=page.title subtitle=page.banner_subtitle image=first_image %}
 
 <div class="portfolio4 spacer up" id="work">
     <div class="container">
