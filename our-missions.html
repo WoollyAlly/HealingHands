@@ -1,17 +1,8 @@
 ---
 layout: default
+banner_title: Our Missions
+banner_subtitle:
+banner_image: images/dsc01939.jpg
 ---
 
-<div class="banner-innerpage" style="background-image:url(../assets/images/innerpage/banner-bg.jpg)">
-    <div class="container">
-        <!-- Row  -->
-        <div class="row justify-content-center ">
-            <!-- Column -->
-            <div class="col-md-6 align-self-center text-center aos-init aos-animate" data-aos="fade-down" data-aos-duration="1200">
-                <h1 class="title">Portfolio 1 Column</h1>
-                <h6 class="subtitle op-8">We are Small Team of Creative People working together</h6>
-            </div>
-            <!-- Column -->
-        </div>
-    </div>
-</div>
+{% include mini-banner.html title=page.banner_title subtitle=page.banner_subtitle image=page.banner_image %}
