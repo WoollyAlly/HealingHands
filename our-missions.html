@@ -45,7 +45,7 @@ banner_image: "/images/dsc01939.jpg"
             {% for mission in site.missions %}
                 <div class="item" data-aos="fade-up">
                     <div class="card card-shadow" data-aos="flip-up" data-aos-duration="1200">
-                        <a href="#"><img class="card-img-top" src="{{ mission.banner_image }}" alt="wrappixel kit" /></a>
+                        <a href="{{ mission.url }}"><img class="card-img-top" src="{{ mission.banner_image }}" alt="{{ mission.title }}" /></a>
                         <div class="card-body p-30">
                             <h5 class="font-bold">{{ mission.title }}</h5>
                             <p class="m-t-20">{{ mission.excerpt }}</p>
