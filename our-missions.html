@@ -31,3 +31,28 @@ banner_image: "/images/dsc01939.jpg"
         <!-- Row -->
     </div>
 </div>
+
+<div class="theme-cards spacer bg-light">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-7 text-center">
+                <h2 class="title font-medium">Causes where need your help</h2>
+                <h6 class="subtitle">You can relay on our amazing features list and also our customer services will be great experience for you without doubt and in no-time</h6>
+            </div>
+        </div>
+        <!-- Row  -->
+        <div class="owl-carousel owl-theme tcards m-t-40">
+            {% for mission in site.missions %}
+                <div class="item" data-aos="fade-up">
+                    <div class="card card-shadow" data-aos="flip-up" data-aos-duration="1200">
+                        <a href="#"><img class="card-img-top" src="{{ mission.image }}" alt="wrappixel kit" /></a>
+                        <div class="card-body p-30">
+                            <h5 class="font-bold">{{ mission.title }}</h5>
+                            <p class="m-t-20">{{ mission.excerpt }}</p>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
