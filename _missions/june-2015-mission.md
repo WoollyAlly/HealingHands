@@ -1,8 +1,8 @@
-___
+---
 layout: mission
 banner_image: /images/dsc01939.jpg
 title: June 2015 Mission
-___
+---
 
 This is the mission that fueled the start of Healing Hands Mission as we know it today. 
 
