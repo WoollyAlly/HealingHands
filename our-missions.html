@@ -43,7 +43,7 @@ banner_image: "/images/dsc01939.jpg"
         <!-- Row  -->
         <div class="owl-carousel owl-theme tcards m-t-40">
             {% assign animations = "flip-left,flip-up,flip-right" | split: "," %}
-            {% for mission in site.missions | sort:"title" %}
+            {% for mission in site.missions | sort:"title" | reverse %}
                 {% assign animationIndex = forloop.index0 | modulo: 3 %}
                 <div class="item" data-aos="fade-up">
                     <div class="card card-shadow" data-aos="{{ animations[animationIndex] }}" data-aos-duration="1200">
