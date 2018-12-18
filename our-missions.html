@@ -41,7 +41,6 @@ banner_image: "/images/dsc01939.jpg"
             </div>
             
             {% for mission in site.missions %}
-                {% assign animationIndex = forloop.index0 | modulo: 3 %}
                 {{ forloop.index0 }}
             {% endfor %}
         </div>
