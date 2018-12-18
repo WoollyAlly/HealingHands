@@ -11,7 +11,7 @@ layout: default
         {% endunless %}
         {% unless forloop.last %}
             {{ "Test" }}
-            {% assign next_mission = missions[forloop.index] %}
+            {% assign next_mission = site.missions[forloop.index] %}
             {{next_mission.url}}
         {% endunless %}
     {% endif %}
