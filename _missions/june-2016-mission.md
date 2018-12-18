@@ -1,7 +1,7 @@
 ---
-layout: mission
-banner_image: /images/dsc01939.jpg
 title: June 2016 Mission
+layout: mission
+banner_image: "/images/dsc01939.jpg"
 ---
 
 The 2016 mission was the very first mission run by Graham Woodward and Melissa Baumgartner. They took the initiative of registering the mission as a 501(c)(3) organization. 
