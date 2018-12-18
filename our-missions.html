@@ -39,6 +39,11 @@ banner_image: "/images/dsc01939.jpg"
                 <h2 class="title font-medium editable">Previous Missions</h2>
                 <h6 class="subtitle editable">You can relay on our amazing features list and also our customer services will be great experience for you without doubt and in no-time</h6>
             </div>
+            
+            {% for mission in site.missions %}
+                {% assign animationIndex = forloop.index0 | modulo: 3 %}
+                {{ forloop.index0 }}
+            {% endfor %}
         </div>
         <!-- Row  -->
         <div class="owl-carousel owl-theme tcards m-t-40">
