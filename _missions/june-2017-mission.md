@@ -1,5 +1,5 @@
 ---
-title: June 2017
+title: June 2017 Mission
 layout: mission
 banner_image: "/images/copydsc09465edit607x404.jpg"
 ---
