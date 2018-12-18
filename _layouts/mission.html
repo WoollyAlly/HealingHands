@@ -32,13 +32,10 @@ layout: default
             <div class="d-flex no-block font-13">
                 
                 {% if previous_mission %}
-                                <a href="#" class="link font-medium"><i class="ti-arrow-left m-r-10"></i> PREVIOUS</a>
-
+                    <a href="{{ previous_mission.url }}" class="link font-medium"><i class="ti-arrow-left m-r-10"></i>{{ previous_mission.title }}</a>
                 {% endif %}
-                
-                {% if previous_mission %}
-                                <a href="#" class="link ml-auto font-medium"> NEXT <i class="ti-arrow-right m-l-10 "></i></a>
-
+                {% if next_mission %}
+                    <a href="{{ next_mission.url }}" class="link ml-auto font-medium"> {{ next_mission.url }} <i class="ti-arrow-right m-l-10 "></i></a>
                 {% endif %}
             </div>
         </div>
