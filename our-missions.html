@@ -46,7 +46,7 @@ banner_image: "/images/upcoming-missions.jpg"
             {% for mission in sorted %}
                 {% assign animationIndex = forloop.index0 | modulo: 3 %}
                 <div class="item" data-aos="fade-up">
-                    <div class="card card-shadow" data-aos="{{ animations[animationIndex] }}" data-aos-duration="1200">
+                    <div class="mission-card card card-shadow" data-aos="{{ animations[animationIndex] }}" data-aos-duration="1200">
                         <a href="{{ mission.url }}"><img class="card-img-top" src="{{ mission.banner_image }}" alt="{{ mission.title }}" /></a>
                         <div class="card-body p-30">
                             <h5 class="font-bold">{{ mission.title }}</h5>
