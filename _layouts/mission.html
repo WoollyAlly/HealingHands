@@ -4,7 +4,7 @@ layout: default
 
 {% include mini-banner.html title=page.title subtitle=page.banner_subtitle image=page.banner_image %}
 
-{% for mission in site.missions   %}
+{% for mission in site.missions %}
     {% if mission.title == page.title %}
         {% unless forloop.first %}
             {% assign previous_mission = prev %}
@@ -12,6 +12,7 @@ layout: default
         {% unless forloop.last %}
             {{ "Test" }}
             {% assign next_mission = missions[forloop.index] %}
+            {{next_mission.url}}
         {% endunless %}
     {% endif %}
   {% assign prev = mission %}
@@ -28,7 +29,6 @@ layout: default
         
         <div class="mini-spacer">
             <div class="d-flex no-block font-13">
-                
                 {% if previous_mission %}
                     <a href="{{ previous_mission.url }}" class="link font-medium"><i class="ti-arrow-left m-r-10"></i>{{ previous_mission.title }}</a>
                 {% endif %}
