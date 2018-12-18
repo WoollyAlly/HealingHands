@@ -10,9 +10,7 @@ layout: default
             {% assign previous_mission = prev %}
         {% endunless %}
         {% unless forloop.last %}
-            {{ "Test" }}
             {% assign next_mission = site.missions[forloop.index] %}
-            {{next_mission.url}}
         {% endunless %}
     {% endif %}
   {% assign prev = mission %}
