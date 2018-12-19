@@ -1,12 +1,12 @@
 ---
 title: January 02 2017
-date: 2018-12-19 03:28:48.197000000 Z
-blog_image_path: "/images/placeholder.jpg"
+date: 2018-12-19 03:28:00
+blog_image_path:
 ---
 
 [Guest View: Healing Hands Medical Mission completes trip in Guatemala](https://www.kcchronicle.com/2016/07/07/guest-view-healing-hands-medical-mission-completes-trip-in-guatemala/ai2xf8u/){: target="_blank"}
 
-(Click link to read full story)&nbsp;
+(Click link to read full story) 
 
 It was reorganized this year into a nonprofit foundation with officers, a board of directors, website and Facebook page. There is now a leadership team and person responsible for each area – nursing, medical, logistics, security and fundraising. Several area churches have stepped up to become key supporters, including St. Patrick Parish, St. John Neumann Church, Baker Memorial United Methodist Church and St. Michael in Wheaton. The total number of donors has grown to about 100 through various activities, fundraisers and gifts.
 
