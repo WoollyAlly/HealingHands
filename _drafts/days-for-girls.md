@@ -1,5 +1,7 @@
 ---
-blog_image_path:
+title: Days For Girls
+date: 2018-12-19 23:36:30.827000000 Z
+blog_image_path: 
 ---
 
 Empowering girls and women worldwide with more dignity, health and safety through quality sustainable menstrual management.​
