@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% include mini-banner.html title=page.title subtitle=page.banner_subtitle image=page.banner_image %}
+{% include mini-banner.html image=page.banner_image %}
 
 {% for mission in site.missions %}
     {% if mission.title == page.title %}
