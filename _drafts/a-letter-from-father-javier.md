@@ -1,5 +1,7 @@
 ---
-blog_image_path:
+title: A Letter From Father Javier
+date: 2018-12-19 23:50:28.845000000 Z
+blog_image_path: 
 ---
 
 “Dear Brothers in Christ, Dr Kevin, Dr Graham and Tom Olp.
