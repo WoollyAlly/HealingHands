@@ -1,7 +1,7 @@
 ---
 title: A Letter from Father Javier
-date: 2017-01-02 00:00:00
-blog_image_path:
+date: 2017-01-02 00:00:00 Z
+blog_image_path: 
 ---
 
 We are very sad to say that the man who has made this mission possible in his own parish in Guatemala has now been transferred to a new parish. We thank him for everything he has done to help the mission and his people and we wish him luck in his new home, serving Christ. This is the letter he wrote to us:
