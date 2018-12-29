@@ -15,7 +15,7 @@
             {% assign animations = "flip-left,flip-up,flip-right" | split: "," %}
             {% for post in site.posts limit: 3 %}
                 <div class="col-md-4">
-                    <div class="card" data-aos="{{ animations[forloop.index0] }}" data-aos-duration="1200">
+                    <div class="card card-shadow" data-aos="{{ animations[forloop.index0] }}" data-aos-duration="1200">
                         <div class="image-container">
                             <img class="card-img-top" src="{{post.blog_image_path}}" alt="{{post.title}}">
                         </div>
