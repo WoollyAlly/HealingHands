@@ -1,7 +1,7 @@
 ---
 title: Healing Hands Medical Mission completes trip in Guatemala
-date: 2017-01-02 00:00:00
-blog_image_path:
+date: 2017-01-02 00:00:00 Z
+blog_image_path: 
 ---
 
 [Healing Hands Medical Mission completes trip in Guatemala](https://www.kcchronicle.com/2016/07/07/guest-view-healing-hands-medical-mission-completes-trip-in-guatemala/ai2xf8u/){: target="_blank"}
