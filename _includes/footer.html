@@ -55,7 +55,7 @@
             <div class="col-lg-3 col-md-6 m-b-30">
                 {% for post in site.posts limit: 2 offset: 2 %}
                     <div class="d-flex no-block align-items-center m-t-20">
-                        <div class="thumb m-r-20"><img src="{{post.blog_image_path}}" alt="{{post.title}}"/></div>
+                        <div class="thumb m-r-20"><img class="footer-img" src="{{post.blog_image_path}}" alt="{{post.title}}"/></div>
                         <div class="btext"><a href="#" class="link">{{post.title}}</a></div>
                     </div>
                 {% endfor %}
