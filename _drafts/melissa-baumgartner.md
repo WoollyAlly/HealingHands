@@ -1,7 +1,7 @@
 ---
 title: Melissa Baumgartner
-date: 2017-01-02 00:00:00
-blog_image_path:
+date: 2017-01-02 00:00:00 Z
+blog_image_path: 
 ---
 
 Healing Hands co-founder, mission secretary, and the Director of Nursing and Clinical Operations, Melissa Baumgartner on why she traveled to Guatemala the first time and keeps coming back:
