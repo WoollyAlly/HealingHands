@@ -42,7 +42,7 @@ banner_image: "/images/upcoming-missions.jpg"
         <!-- Row  -->
         <div class="owl-carousel owl-theme tcards m-t-40">
             {% assign animations = "flip-left,flip-up,flip-right" | split: "," %}
-            {% assign sorted = (site.missions | sort: 'title') | reverse %}
+            {% assign sorted = (site.missions | sort: 'title') %}
             {% for mission in sorted %}
                 {% assign animationIndex = forloop.index0 | modulo: 3 %}
                 <div class="item" data-aos="fade-up">
