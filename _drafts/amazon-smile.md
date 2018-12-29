@@ -1,7 +1,7 @@
 ---
 title: Amazon Smile
-date: 2018-03-12 00:00:00
-blog_image_path:
+date: 2018-03-12 00:00:00 Z
+blog_image_path: 
 ---
 
 AmazonSmile Triple Donation promotion starts today!
