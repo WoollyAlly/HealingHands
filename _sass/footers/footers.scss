@@ -103,12 +103,12 @@ Footer 3
             }
         }
     }
-    // .link{
-    //     color:$bodytext;
-    //     &:hover{
-    //         color:$white;
-    //     }
-    // }
+    .link{
+        color:$bodytext;
+        &:hover{
+            // color:$white;
+        }
+    }
     .f3-bottom-bar{
         background: rgba(0, 0, 0, 0.1);
         padding: 20px 0;
