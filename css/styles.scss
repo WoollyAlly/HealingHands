@@ -43,6 +43,11 @@
     color: $facebook;
 }
 
+.footer-img {
+    width: 60px;
+    height: 60px;
+}
+
 #slider{
     h1{    
         font-size: 69px;
@@ -212,7 +217,7 @@ slide 1
 
 @media (max-width: 428px) {
 	.slider8 {
-		h3 {
+		h3 {f
 			font-size:24px;
 		}
 		.slide-content {
