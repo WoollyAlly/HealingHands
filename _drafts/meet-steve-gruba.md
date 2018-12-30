@@ -1,7 +1,7 @@
 ---
 title: Meet Steve Gruba
-date: 2018-10-30 00:00:00
-blog_image_path: /uploads/steve-gruba.jpg
+date: 2018-10-30 00:00:00 Z
+blog_image_path: "/uploads/steve-gruba.jpg"
 ---
 
 Meet Steve Gruba (on the right). A wonderful retired physician who has come with us many times.
