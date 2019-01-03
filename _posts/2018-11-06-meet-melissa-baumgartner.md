@@ -1,7 +1,7 @@
 ---
 title: Meet Melissa Baumgartner
-date: 2018-11-06 00:00:00
-blog_image_path: /uploads/meet-melissa-baumgartner-1.jpg
+date: 2018-11-06 00:00:00 Z
+blog_image_path: "/uploads/meet-melissa-baumgartner-1.jpg"
 ---
 
 She is one of our co-founders, our secretary, and our Director of Nursing and Clinical Operations.
