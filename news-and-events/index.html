@@ -12,9 +12,9 @@ layout: default
                         
                       {% if post.blog_image_path %}
                           {% if post.excerpt.size != post.content.size %}
-                            <a href="{{post.url}}"><img src="{{post.blog_image_path}}" alt="{{post.title}}" class="img-fluid"/></a>
+                            <a href="{{post.url}}"><img src="{{post.blog_image_path}}" alt="{{post.title}}" class="img-fluid w-100"/></a>
                           {% else %}
-                            <img src="{{post.blog_image_path}}" alt="{{post.title}}" class="img-fluid"/>
+                            <img src="{{post.blog_image_path}}" alt="{{post.title}}" class="img-fluid w-100"/>
                           {% endif %}
                       {% endif %}
 
