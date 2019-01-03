@@ -9,6 +9,8 @@ layout: default
             <div class="col-md-8">
                 {% for post in paginator.posts %}
                     {% assign more_is_available = post.excerpt.size != post.content.size %}
+                    {{post.excerpt.size}}
+                    {{post.content.size}}
                     <div class="mini-spacer">
                         
                       {% if post.blog_image_path %}
