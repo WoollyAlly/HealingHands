@@ -4,7 +4,9 @@ date: 2018-11-27 00:00:00 Z
 blog_image_path: "/images/copydsc08927edit.jpg"
 ---
 
-As the holidays approach and 2018 draws to a close, it feels natural to reflect upon the accomplishments that many of you &nbsp;have helped Healing Hands Medical Mission achieve this year. We hope you take a moment to consider donating to our organization this Giving Tuesday.
+As the holidays approach and 2018 draws to a close, it feels natural to reflect upon the accomplishments that many of you &nbsp;have helped Healing Hands Medical Mission achieve this year.
+
+We hope you take a moment to consider donating to our organization this Giving Tuesday.
 
 WHAT WE DO
 
