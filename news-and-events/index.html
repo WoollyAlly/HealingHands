@@ -8,8 +8,6 @@ layout: default
         <div class="row justify-content-center">
             <div class="col-md-8">
                 {% for post in paginator.posts %}
-                    {{post.excerpt.size}}
-                    {{post.content.size}}
                     <div class="mini-spacer">
                         
                       {% if post.blog_image_path %}
