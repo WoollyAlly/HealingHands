@@ -43,13 +43,16 @@
     color: $facebook;
 }
 
-.footer3 .thumb {
-    height: 60px;
-    width: 60px;
-    overflow: hidden;
-    img {
-        height: 100%;
+.footer3 {
+    .thumb {
+        height: 60px;
+        width: 60px;
+        overflow: hidden;
+        img {
+            height: 100%;
+        }
     }
+    
     .d-flex .btext {
         flex:1;
     }
