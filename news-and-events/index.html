@@ -12,7 +12,11 @@ layout: default
                     <div class="mini-spacer">
                         
                       {% if post.blog_image_path %}
-                        <a href="#"><img src="{{post.blog_image_path}}" alt="{{post.title}}" class="img-fluid"/></a>
+                          {% if more_is_available %}
+                            <a href="{{post.url}}"><img src="{{post.blog_image_path}}" alt="{{post.title}}" class="img-fluid"/></a>
+                          {% else %}
+                            <img src="{{post.blog_image_path}}" alt="{{post.title}}" class="img-fluid"/>
+                          {% endif %}
                       {% endif %}
 
                         <ul class="text-uppercase m-t-40 list-inline font-13 font-medium">
