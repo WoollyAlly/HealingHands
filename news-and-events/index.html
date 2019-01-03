@@ -23,6 +23,7 @@ layout: default
                 <div class="mini-spacer">
                     <div class="d-flex no-block font-13">
                       {% if paginator.previous_page %}
+                      {{paginator}}
                         <a href="{{ paginator.previous_page }}" class="link font-medium"><i class="ti-arrow-left m-r-10"></i>PREVIOUS</a>
                       {% endif %}
                       {% if paginator.next_page %}
