@@ -4,12 +4,12 @@ layout: default
 
 {% include mini-banner.html image="/images/news-events.jpg" %}
 
-<div class="portfolio4 bg-light" id="work">
+<div class="portfolio4 bg-light">
     <div class="container">
         <div class="mini-spacer">
                         
               {% if post.blog_image_path %}
-                    <img src="{{page.blog_image_path}}" alt="{{post.title}}" class="img-fluid w-100"/>
+                    <img src="{{page.blog_image_path}}" alt="{{page.title}}" class="img-fluid w-100"/>
               {% endif %}
             <h2 class="title font-light">{{ page.title }}</h2>
             <p class="m-t-30 m-b-30">{{ page.content }}</p>
