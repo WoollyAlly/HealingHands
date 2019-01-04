@@ -1,7 +1,7 @@
 ---
-layout: post
 title: Meet Melissa Baumgartner
 date: 2018-11-06 00:00:00 Z
+layout: post
 blog_image_path: "/uploads/meet-melissa-baumgartner-1.jpg"
 ---
 
