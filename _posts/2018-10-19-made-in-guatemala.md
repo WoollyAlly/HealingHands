@@ -1,7 +1,7 @@
 ---
-layout: post
 title: Made in Guatemala
 date: 2018-10-19 00:00:00 Z
+layout: post
 blog_image_path: "/uploads/made-in-guatemala-1.jpg"
 ---
 
