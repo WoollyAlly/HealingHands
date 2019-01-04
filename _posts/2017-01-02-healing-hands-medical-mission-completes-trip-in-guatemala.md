@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Healing Hands Medical Mission completes trip in Guatemala
 date: 2017-01-02 00:00:00 Z
 blog_image_path: 

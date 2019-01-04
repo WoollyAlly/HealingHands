@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Our Own Dr. Graham Woodward Wins Award
 date: 2017-01-20 00:00:00 Z
 blog_image_path: 

@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Amazon Smile
 date: 2018-03-12 00:00:00 Z
 blog_image_path: 

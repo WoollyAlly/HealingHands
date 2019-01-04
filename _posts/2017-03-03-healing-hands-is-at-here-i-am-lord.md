@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Healing Hands is at Here I Am Lord
 date: 2017-03-03 00:00:00 Z
 blog_image_path: "/uploads/here-i-am-lord-1.jpg"

@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Participant Meeting Success
 date: 2017-02-19 00:00:00 Z
 blog_image_path: 
