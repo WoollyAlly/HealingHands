@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "#GivingTuesday"
 date: 2018-11-27 00:00:00 Z
 blog_image_path: "/images/copydsc08927edit.jpg"
