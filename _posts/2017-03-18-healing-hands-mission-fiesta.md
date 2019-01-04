@@ -1,7 +1,7 @@
 ---
-layout: post
 title: Healing Hands Mission Fiesta
 date: 2017-03-18 00:00:00 Z
+layout: post
 blog_image_path: 
 ---
 

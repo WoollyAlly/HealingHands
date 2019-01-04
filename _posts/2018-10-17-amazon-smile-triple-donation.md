@@ -1,7 +1,7 @@
 ---
-layout: post
 title: Amazon Smile Triple Donation
 date: 2018-10-17 00:00:00 Z
+layout: post
 blog_image_path: 
 ---
 

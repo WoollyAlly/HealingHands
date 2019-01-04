@@ -1,7 +1,7 @@
 ---
-layout: post
 title: Participant Meeting
 date: 2017-02-15 00:00:00 Z
+layout: post
 blog_image_path: 
 ---
 

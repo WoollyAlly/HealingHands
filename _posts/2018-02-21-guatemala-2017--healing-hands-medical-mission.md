@@ -1,7 +1,7 @@
 ---
-layout: post
 title: Guatemala 2017- Healing Hands Medical Mission
 date: 2018-02-21 00:00:00 Z
+layout: post
 blog_image_path: 
 ---
 

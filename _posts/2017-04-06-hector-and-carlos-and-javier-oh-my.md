@@ -1,7 +1,7 @@
 ---
-layout: post
 title: Hector and Carlos and Javier! Oh my!
 date: 2017-04-06 00:00:00 Z
+layout: post
 blog_image_path: 
 ---
 

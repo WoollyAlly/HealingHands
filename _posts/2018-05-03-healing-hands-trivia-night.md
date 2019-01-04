@@ -1,7 +1,7 @@
 ---
-layout: post
 title: Healing Hands Trivia Night
 date: 2018-05-03 00:00:00 Z
+layout: post
 blog_image_path: 
 ---
 
