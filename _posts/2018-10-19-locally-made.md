@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Locally Made
 date: 2018-10-19 00:00:00 Z
 blog_image_path: "/uploads/locally-made-1.jpg"
