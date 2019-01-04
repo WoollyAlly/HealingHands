@@ -1,7 +1,7 @@
 ---
-layout: post
 title: A Simple Way To Donate
 date: 2018-11-15 00:00:00 Z
+layout: post
 blog_image_path: "/images/blog1.jpg"
 ---
 
