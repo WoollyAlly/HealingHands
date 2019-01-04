@@ -1,7 +1,7 @@
 ---
-layout: post
 title: A Letter from Father Javier
 date: 2017-01-02 00:00:00 Z
+layout: post
 blog_image_path: 
 ---
 
