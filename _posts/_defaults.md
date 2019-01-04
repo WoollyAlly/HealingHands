@@ -1,4 +1,5 @@
 ---
-blog_image_path: "/images/placeholder.jpg"
+layout: post
+blog_image_path: 
 ---
 
