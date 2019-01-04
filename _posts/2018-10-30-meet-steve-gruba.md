@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Meet Steve Gruba
 date: 2018-10-30 00:00:00 Z
 blog_image_path: "/uploads/steve-gruba-1.jpg"
