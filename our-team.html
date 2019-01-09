@@ -35,6 +35,7 @@ comittee_members:
 - name: Lisa Carani APN
 - name: Virginia Donis
 - name: Chris Perkovich
+
 partners:
 - Baker Memorial Church - Women's Group
 - Biaggi's - Algonquin
@@ -123,10 +124,10 @@ partners:
                     <a href="javascript:void(0)" class="linking">Learn More <i class="ti-arrow-right"></i></a>
                 </div>
             </div>
-            <div class="col-md-5 col-md-5 ml-auto "> <img src="../assets/images/innerpage/s1.jpg" alt="wrapkit" class="img-responsive"> </div>
+            <div class="col-md-5 col-md-5 ml-auto "> <img src="../assets/images/innerpage/s1.jpg" alt="wrapkit" class="img-responsive editable"> </div>
         </div>
         <div class="row wrap-feature-26 m-t-40 p-t-30">
-            <div class="col-md-5"> <img src="../assets/images/innerpage/s2.jpg" alt="wrapkit" class="img-responsive"> </div>
+            <div class="col-md-5"> <img src="../assets/images/innerpage/s2.jpg" alt="wrapkit" class="img-responsive editable"> </div>
             <div class="col-md-6 ml-auto align-self-center">
                 <h2 class="title m-t-20">Committee of Fundraising and Outreach</h2>
                 <ul class="list-block m-b-30">
@@ -135,6 +136,21 @@ partners:
                 {% endfor %}
                 </ul>
             </div>
+        </div>
+        <div class="row wrap-feature-26">
+            <div class="col-md-6 align-self-center">
+                <div class="max-box">
+                    <h2 class="title m-t-20">Partners</h2>
+                    
+                    <ul class="list-block m-b-30">
+                        {% for member in page.team_members %}
+                            <li> <span>{{ member.name }} - {{ member.title }}</span></li>
+                        {% endfor %}
+                    </ul>
+                    <a href="javascript:void(0)" class="linking">Learn More <i class="ti-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="col-md-5 col-md-5 ml-auto "> <img src="../assets/images/innerpage/s1.jpg" alt="wrapkit" class="img-responsive editable"> </div>
         </div>
     </div>
 </div>
