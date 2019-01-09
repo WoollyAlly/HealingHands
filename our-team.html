@@ -35,6 +35,7 @@ comittee_members:
 - name: Lisa Carani APN
 - name: Virginia Donis
 - name: Chris Perkovich
+
 partners:
 - Baker Memorial Church - Women's Group
 - Biaggi's - Algonquin
@@ -52,63 +53,7 @@ partners:
 ---
 
 {% include mini-banner.html title=page.banner_title subtitle=page.banner_subtitle image=page.banner_image %}
-
 <div class="spacer feature8">
-    <div class="container">
-        <!-- Row -->
-        <div class="row">
-            <!-- Column -->
-            <div class="col-lg-12">
-                <h2 class="editable">
-                    Our Team
-                </h2>
-                <ul class="list-block m-b-30">
-                {% for member in page.team_members %}
-                    <li> <span>{{ member.name }} - {{ member.title }}</span></li>
-                {% endfor %}
-                </ul>
-            </div>
-        </div>
-        <!-- Row -->
-    </div>
-</div>
-<div class="spacer feature8">
-    <div class="container">
-        <!-- Row -->
-        <div class="row">
-            <!-- Column -->
-            <div class="col-lg-12">
-                <h2 class="editable">
-                    Committee of Fundraising and Outreach
-                </h2>
-                <ul class="list-block m-b-30">
-                {% for member in page.comittee_members %}
-                    <li> <span>{{ member.name }}</span></li>
-                {% endfor %}
-                </ul>
-            </div>
-        </div>
-        <!-- Row -->
-    </div>
-</div>
-<div class="spacer feature8">
-    <div class="container">
-        <!-- Row -->
-        <div class="row">
-            <!-- Column -->
-            <div class="col-lg-12">
-                <h2 class="editable">
-                    Our Partners
-                </h2>
-                <ul class="list-block m-b-30">
-                {% for partner in page.partners %}
-                    <li> <span>{{ partner }}</span></li>
-                {% endfor %}
-                </ul>
-            </div>
-        </div>
-        <!-- Row -->
-    </div>
     <div class="container">
         <div class="row wrap-feature-26">
             <div class="col-md-6 align-self-center">
