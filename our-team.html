@@ -35,13 +35,14 @@ comittee_members:
 - name: Lisa Carani APN
 - name: Virginia Donis
 - name: Chris Perkovich
+
 partners:
-- title: Baker Memorial Church
+- title: Baker Memorial Church 
   subtitle: Women's Group
-- title: Biaggi's
+- title: Biaggi's 
   subtitle: Algonquin
 - title: Casciaro, Gregory and Kathleen
-- title: Casciaro, Jean
+- title: Casciaro, Jean 
 - title: Central Dupage Hospital Medical Staff
 - title: Fox Valley Franciscans
 - title: Likwid Assets
@@ -88,26 +89,24 @@ partners:
             <div class="col-md-5"> <img src="/images/dsc01939.jpg" alt="" class="img-responsive editable"> </div>
         </div>
         <div class="row wrap-feature-26">
-            <div class="col-md-6 align-self-center">
-                <div class="max-box">
-                    <h2 class="title m-t-20 editable">Partners</h2>
-                    <div class="m-t-30 editable"> “It is only when we learn to cry with those who are suffering can we begin to understand and love them,” (Pope Francis). Jesus ministered to his people. He did not meet the people’s needs with statements of worldly compassion only stopping for a few moments to hand out money or material goods. Rather Christ took the time to listen and sympathize with those who were in need. Pope Francis calls us to action. In Evangeli Gaudium, Pope Francis calls us to respond to the gospel, to live it more fully and more deeply, to reach out to the poor and broken, to end injustice, and build peace. And to find JOY in it.
+            <div class="col-md-12 align-self-center">
+                <h2 class="title m-t-20 editable">Partners</h2>
+                <div class="m-t-30 editable"> “It is only when we learn to cry with those who are suffering can we begin to understand and love them,” (Pope Francis). Jesus ministered to his people. He did not meet the people’s needs with statements of worldly compassion only stopping for a few moments to hand out money or material goods. Rather Christ took the time to listen and sympathize with those who were in need. Pope Francis calls us to action. In Evangeli Gaudium, Pope Francis calls us to respond to the gospel, to live it more fully and more deeply, to reach out to the poor and broken, to end injustice, and build peace. And to find JOY in it.
 
 In our long journey to and from Guatemala, we need help from many hands. These are the people and organizations we'd like to thank for all the ways they help us. 
-                    </div>
-                    <ul class="list-block m-b-30">
-                        {% for partner in page.partners %}
-                        <li> 
-                            <span>
-                                {{ partner.title }}
-                                  {% if partner.subtitle %}
-                                    - <span class="subtitle"> {{ partner.subtitle }}</span>
-                                  {% endif %}
-                            </span>
-                        </li> 
-                        {% endfor %}
-                    </ul>
                 </div>
+                <ul class="list-block m-b-30">
+                    {% for partner in page.partners %}
+                    <li> 
+                        <span>
+                            {{ partner.title }}
+                              {% if partner.subtitle %}
+                                - <span class="subtitle"> {{ partner.subtitle }}</span>
+                              {% endif %}
+                        </span>
+                    </li> 
+                    {% endfor %}
+                </ul>
             </div>
             <div class="col-md-5 col-md-5 ml-auto "> <img src="/images/dsc01939.jpg" alt="" class="img-responsive editable"> </div>
         </div>
