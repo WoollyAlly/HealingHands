@@ -10,10 +10,9 @@
                     <div class="collapse navbar-collapse" id="header4">
                         <div class="hover-dropdown">
                             <ul class="navbar-nav">
-                                
                                 {% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
                                 {% for p in navigation_pages %}
-                                  {% if p.navigation_weight && !page.previous%}
+                                  {% if p.navigation_weight && !p.previous%}
                                     <li class="nav-item {% if p.url == page.url %}active{% endif %}"> <a class="nav-link" href="{{p.url}}">{{p.title}}</a></li>
                                   {% endif %}
                                 {% endfor %}
