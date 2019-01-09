@@ -35,6 +35,7 @@ comittee_members:
 - name: Lisa Carani APN
 - name: Virginia Donis
 - name: Chris Perkovich
+
 partners:
 - Baker Memorial Church - Women's Group
 - Biaggi's - Algonquin
@@ -120,7 +121,6 @@ partners:
                             <li> <span>{{ member.name }} - {{ member.title }}</span></li>
                         {% endfor %}
                     </ul>
-                    <a href="javascript:void(0)" class="linking">Learn More <i class="ti-arrow-right"></i></a>
                 </div>
             </div>
             <div class="col-md-5 col-md-5 ml-auto "> <img src="../assets/images/innerpage/s1.jpg" alt="wrapkit" class="img-responsive editable"> </div>
@@ -142,11 +142,10 @@ partners:
                     <h2 class="title m-t-20">Partners</h2>
                     
                     <ul class="list-block m-b-30">
-                        {% for member in page.team_members %}
-                            <li> <span>{{ member.name }} - {{ member.title }}</span></li>
+                        {% for partner in page.partners %}
+                            <li> <span>{{ partner }}</span></li>
                         {% endfor %}
                     </ul>
-                    <a href="javascript:void(0)" class="linking">Learn More <i class="ti-arrow-right"></i></a>
                 </div>
             </div>
             <div class="col-md-5 col-md-5 ml-auto "> <img src="../assets/images/innerpage/s1.jpg" alt="wrapkit" class="img-responsive editable"> </div>
