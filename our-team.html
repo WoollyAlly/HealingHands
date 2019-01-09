@@ -35,20 +35,30 @@ comittee_members:
 - name: Lisa Carani APN
 - name: Virginia Donis
 - name: Chris Perkovich
+
 partners:
-- Baker Memorial Church - Women's Group
-- Biaggi's - Algonquin
-- Casciaro, Gregory and Kathleen
-- Casciaro, Jean&- Central Dupage Hospital Medical Staff
-- Fox Valley Franciscans&- Likwid Assets
-- Starbucks - South Elgin&- State Street Jewelry Studio
-- St. John Neumann Parish&- St. Michael's Catholic School
-- St. Patrick Catholic School
-- St. Patrick Parish
-- St. Patrick Parish - Peace and Justice Committee
-- St. Patrick Parish - Women at the Well
-- Wilson Travel &amp; Cruise
-- Woodward, Charles and Karen
+- title: Baker Memorial Church 
+  subtitle: Women's Group
+- title: Biaggi's 
+  subtitle: Algonquin
+- title: Casciaro, Gregory and Kathleen
+- title: Casciaro, Jean 
+- title: Central Dupage Hospital Medical Staff
+- title: Fox Valley Franciscans
+- title: Likwid Assets
+- title: Starbucks
+  subtitle: South Elgin
+- title: State Street Jewelry Studio
+- title: St. John Neumann Parish
+- title: St. Michael's Catholic School
+- title: St. Patrick Catholic School
+- title: St. Patrick Parish
+- title: St. Patrick Parish
+  subtitle: Peace and Justice Committee
+- title: St. Patrick Parish
+  subtitle: Women at the Well
+- title: Wilson Travel & Cruise
+- title: Woodward, Charles and Karen
 ---
 
 {% include mini-banner.html title=page.banner_title subtitle=page.banner_subtitle image=page.banner_image %}
@@ -85,7 +95,12 @@ partners:
                     <p class="m-t-30 editable"></p>
                     <ul class="list-block m-b-30">
                         {% for partner in page.partners %}
-                            <li> <span>{{ partner }}</span></li>
+                            <span>
+                                {{ partner.title }}
+                                  {% if partner.subtitle %}
+                                    - <span class="subtitle"> {{ partner.subtitle }}</span>
+                                  {% endif %}
+                            </span>
                         {% endfor %}
                     </ul>
                 </div>
