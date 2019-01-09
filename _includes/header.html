@@ -12,7 +12,7 @@
                             <ul class="navbar-nav">
                                 {% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
                                 {% for p in navigation_pages %}
-                                  {% if p.navigation_weight && !p.previous%}
+                                  {% if p.navigation_weight && p.path !contains 'Pack'%}
                                   {{p.previous}}
                                   {{p.path}}
                                   {{ p.dir }}
