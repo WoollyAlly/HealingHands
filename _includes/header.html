@@ -15,8 +15,8 @@
                                   {% if p.navigation_weight && !p.previous%}
                                   {{p.previous}}
                                   {{p.path}}
-                                  {{ page.dir }}
-                                  {{ page.id }}
+                                  {{ p.dir }}
+                                  {{ p.id }}
                                     <li class="nav-item {% if p.url == page.url %}active{% endif %}"> <a class="nav-link" href="{{p.url}}">{{p.title}}</a></li>
                                   {% endif %}
                                 {% endfor %}
