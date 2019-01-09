@@ -2,10 +2,10 @@
 title: Our Team
 layout: default
 navigation_weight: 3
-banner_title: 
-banner_subtitle: 
-banner_image: "/images/our-team.jpg"
-team_member:
+banner_title:
+banner_subtitle:
+banner_image: /images/our-team.jpg
+team_members:
 - name: Graham Woodward MD
   position: President, Medical Director
 ---
@@ -21,7 +21,12 @@ team_member:
                 <h2 class="editable">
                     Our Team
                 </h2>
-            </div>
+                <ul class="list-block m-b-30">
+                    
+                {% for member in page.team_members %}
+                    <li> <span>{{ member.name }} - {{ member.title }}</span></li>
+                {% endfor %}
+                </ul>
         </div>
         <!-- Row -->
     </div>
