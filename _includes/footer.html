@@ -63,7 +63,7 @@
                             <div class="col-md-6">
                                 <div class="d-flex no-block align-items-center m-t-20">
                                     <div class="thumb m-r-20"><img class="footer-img" src="{{post.blog_image_path}}" alt="{{post.title}}"/></div>
-                                    <div class="btext"><a href="#" class="link">{{post.title}}</a></div>
+                                    <div class="btext"><a href="{{ post.url }}" class="link">{{post.title}}</a></div>
                                 </div>
                             </div>
                         {% endfor %}
@@ -73,7 +73,7 @@
                             <div class="col-md-6">
                                 <div class="d-flex no-block align-items-center m-t-20">
                                     <div class="thumb m-r-20"><img class="footer-img" src="{{post.blog_image_path}}" alt="{{post.title}}"/></div>
-                                    <div class="btext"><a href="#" class="link">{{post.title}}</a></div>
+                                    <div class="btext"><a href="{{ post.url }}" class="link">{{post.title}}</a></div>
                                 </div>
                             </div>
                         {% endfor %}
