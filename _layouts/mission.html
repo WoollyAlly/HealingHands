@@ -16,7 +16,7 @@ layout: default
     {% assign prev = mission %}
 {% endfor %}
 
-<div class="portfolio4" id="work">
+<div class="portfolio4 bg-light">
     <div class="container">
         <!-- Row  -->
         <div class="mini-spacer">
@@ -35,19 +35,19 @@ layout: default
             </div>
         </div>
         <!-- Row  -->
-        <div class="row m-t-40 popup-gallery portfolio-box4">
+        <!--<div class="row m-t-40 popup-gallery portfolio-box4">-->
             <!-- Column --> 
-            {% for image in site.static_files %}
-                {% if image.path contains page.title %}
-                    <div class="col-lg-4 col-md-6 filter">
-                        <div class="card">
-                            <a href="{{ image.path }}" class="img-ho" title="">
-                                <img class="card-img-top" src="{{ image.path }}" alt="{{ image.path }}">
-                            </a>
-                        </div>
-                    </div>
-                {% endif %}
-            {% endfor %}
-        </div>
+        <!--    {% for image in site.static_files %}-->
+        <!--        {% if image.path contains page.title %}-->
+        <!--            <div class="col-lg-4 col-md-6 filter">-->
+        <!--                <div class="card">-->
+        <!--                    <a href="{{ image.path }}" class="img-ho" title="">-->
+        <!--                        <img class="card-img-top" src="{{ image.path }}" alt="{{ image.path }}">-->
+        <!--                    </a>-->
+        <!--                </div>-->
+        <!--            </div>-->
+        <!--        {% endif %}-->
+        <!--    {% endfor %}-->
+        <!--</div>-->
     </div>
 </div>
