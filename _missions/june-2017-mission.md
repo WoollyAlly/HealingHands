@@ -1,7 +1,7 @@
 ---
 title: June 2017 Mission
 layout: mission
-banner_image: /uploads/copydsc09465edit-crop-u23628.jpg
+banner_image: "/uploads/copydsc09465edit-crop-u23628.jpg"
 ---
 
 The June 2017 mission saw a record 1,000 patients. As for construction projects, we paid for windows and ceiling fans to be added to the medical clinic.
