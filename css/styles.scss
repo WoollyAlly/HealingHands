@@ -185,6 +185,14 @@ slide 1
 	}
 }
 
+@media (min-width: 1281px) {
+	.slider8 {
+		.slide-image {
+		    top: -100px;
+		}
+	}
+}
+
 @media (max-width: 1280px) {
 	.slider8 {
 		overflow-y:hidden;
