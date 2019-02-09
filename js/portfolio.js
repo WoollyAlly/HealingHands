@@ -36,9 +36,11 @@ $(function() {
         $grid.find(".hidden").removeClass("hidden");
 
         iso.filteredItems.slice(0, toShow).forEach(function(item) {
-            var $elem = $(item.element);
-            var source = $elem.data('src');
-            $elem.attr("src", source);
+            var $img = $(item.element).find('img');
+            if ($img) {
+                var source = $img.data('src');
+                $img.attr("src", source);
+            }
         });
         var hiddenElems = iso.filteredItems.slice(toShow, iso.filteredItems.length).map(function(item) {
             return item.element;
