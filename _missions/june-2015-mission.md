@@ -1,5 +1,6 @@
 ---
 title: June 2015 Mission
+images_folder: 2015Mission
 layout: mission
 banner_image: "/images/2015-mission.jpg"
 ---
