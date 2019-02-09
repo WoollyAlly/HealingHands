@@ -35,14 +35,15 @@ $(function() {
     function loadMore(toShow) {
         $grid.find(".hidden").removeClass("hidden");
 
-        var visibleElems = = iso.filteredItems.slice(0, toShow).map(function(item) {
-            return item.element;
+        iso.filteredItems.slice(0, toShow).forEach(function(item) {
+            var $elem = $(item.element);
+            var source = $elem.data('src');
+            $elem.attr("src", source);
         });
         var hiddenElems = iso.filteredItems.slice(toShow, iso.filteredItems.length).map(function(item) {
             return item.element;
         });
         
-        $($0).attr("src",($($0).data('src')))
         $(hiddenElems).addClass('hidden');
         $grid.isotope('layout');
 
