@@ -36,7 +36,7 @@ layout: default
         </div>
         <div class="row m-t-40 popup-gallery portfolio-box4">
             {% for image in site.static_files %}
-                {% if image.path contains page.title %}
+                {% if image.path contains page.images_folder %}
                     <div class="col-lg-4 col-md-6 filter">
                         <div class="card">
                             <a href="{{ image.path }}" class="img-ho" title="">
