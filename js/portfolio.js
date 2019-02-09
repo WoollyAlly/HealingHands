@@ -35,7 +35,7 @@ $(function() {
     function loadMore(toShow) {
         $grid.find(".hidden").removeClass("hidden");
 
-        var hiddenElems = iso.filteredItems.slice(iso.filteredItems.length, iso.filteredItems.length).map(function(item) {
+        var hiddenElems = iso.filteredItems.slice(toShow, iso.filteredItems.length).map(function(item) {
             return item.element;
         });
         $(hiddenElems).addClass('hidden');
