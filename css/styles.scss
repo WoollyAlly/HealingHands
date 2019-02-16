@@ -28,6 +28,10 @@
 @import 'footers/footers.scss';
 @import 'portfolio/portfolio.scss';
 
+.counter-header {
+    display: inline;
+}
+
 .banner-innerpage {
     padding: 250px 0 100px;
 }
