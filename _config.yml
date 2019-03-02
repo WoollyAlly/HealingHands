@@ -6,6 +6,10 @@ collections:
     title: Missions
     output: true
     permalink: "/missions/:name"
+  events:
+    title: Events
+    output: true
+    permalink: "/events/:name"
   posts:
     title: Posts
     output: true
