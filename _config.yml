@@ -2,14 +2,14 @@
 title: Healing Hands
 timezone: UTC
 collections:
-  missions:
-    title: Missions
-    output: true
-    permalink: "/missions/:name"
   events:
     title: Events
     output: true
     permalink: "/events/:name"
+  missions:
+    title: Missions
+    output: true
+    permalink: "/missions/:name"
   posts:
     title: Posts
     output: true
