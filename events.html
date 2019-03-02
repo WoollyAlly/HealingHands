@@ -9,28 +9,31 @@ banner_image: "/images/upcoming-missions.jpg"
 
 {% include mini-banner.html title=page.banner_title subtitle=page.banner_subtitle image=page.banner_image %}
 
-<div class="spacer feature8">
+<div class="theme-cards spacer bg-light">
     <div class="container">
-        <!-- Row -->
-        <div class="row">
-            <!-- Column -->
-            <div class="col-lg-6">
-                <h2 class="editable">
-                    Upcoming Events
-                </h2>
-                <p class="editable">
-                    As we continue to grow as an organization, we try to accomplish something new each year, whether it's providing the community with more medical supplies or finding ways to provide our patients with continuing care. This is where we will keep you updated on our plans for upcoming trips. You can also check each trip's individual page to&nbsp; view all of the pictures and see what we've accomplished.<br /><br />If you or someone you know are interested in coming on our mission, donating medical supplies, or have any questions, send us an email at info@healinghandsmission.com.
-                </p>
+        <div class="row justify-content-center">
+            <div class="col-md-8 text-center">
+                <h2 class="title font-medium editable">Upcoming Events</h2>
             </div>
-            <!-- Column -->
-            <div class="col-lg-6">
-                <div class="p-20">
-                    <img src="/images/dsc01939.jpg" alt="" class="rounded img-responsive img-shadow editable aos-init aos-animate" data-aos="flip-right" data-aos-duration="1200" />
-                </div>
-            </div>
-            <!-- Column -->
         </div>
-        <!-- Row -->
+        <!-- Row  -->
+        <div class="owl-carousel owl-theme tcards m-t-40">
+            {% assign animations = "flip-left,flip-up,flip-right" | split: "," %}
+            {% assign sorted = (site.missions | sort: 'title') %}
+            {% for mission in sorted %}
+                {% assign animationIndex = forloop.index0 | modulo: 3 %}
+                <div class="item" data-aos="fade-up">
+                    <div class="mission-card card card-shadow" data-aos="{{ animations[animationIndex] }}" data-aos-duration="1200">
+                        <a href="{{ mission.url }}"><img class="card-img-top" src="{{ mission.banner_image }}" alt="{{ mission.title }}" /></a>
+                        <div class="card-body p-30">
+                            <h5 class="font-bold">{{ mission.title }}</h5>
+                            <p class="m-t-20">{{ mission.excerpt }}</p>
+                            <a href="{{ mission.url }}" class="linking text-info font-medium m-t-10">Learn More<i class="ti-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
     </div>
 </div>
 
