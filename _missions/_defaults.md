@@ -1,5 +1,7 @@
-___
+---
+title: June 2015 Mission
 layout: mission
-banner_image: /images/dsc01939.jpg
-title: Title
-___
+banner_image: "/images/2015-mission.jpg"
+---
+
+Description
