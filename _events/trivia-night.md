@@ -1,6 +1,6 @@
 ---
 title: Trivia Night
-date: 2019-05-06
+date: 2019-05-06 00:00:00 Z
 layout: event
 banner_image: "/uploads/fiesta.jpg"
 ---
