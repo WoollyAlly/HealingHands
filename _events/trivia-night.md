@@ -1,8 +1,8 @@
 ---
 title: Trivia Night
-date: 2019-05-05 00:00:00
+date: 2019-05-05 00:00:00 Z
 layout: event
-banner_image: /uploads/fiesta.jpg
+banner_image: "/uploads/fiesta.jpg"
 ---
 
 Healing Hands Medical Mission is Hosting a Trivia Night and all proceeds go to offset the cost of medicine, supplies and transportation for our Guatemalan patients who need medical attention. Arrange a group of 2-10 friends or family and start reviewing for TRIVIA. We're serving a buffet-style Italian dinner featuring 7 rounds of trivia. Our next Medical Mission to Guatemala is scheduled for June and we need your help to make it happen.
