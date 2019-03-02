@@ -41,23 +41,6 @@ banner_image: "/images/upcoming-missions.jpg"
                 <h2 class="title font-medium editable">Previous Missions</h2>
             </div>
         </div>
-        <!-- Row  -->
-        <div class="owl-carousel owl-theme tcards m-t-40">
-            {% assign animations = "flip-left,flip-up,flip-right" | split: "," %}
-            {% assign sorted = (site.missions | sort: 'title') %}
-            {% for mission in sorted %}
-                {% assign animationIndex = forloop.index0 | modulo: 3 %}
-                <div class="item" data-aos="fade-up">
-                    <div class="mission-card card card-shadow" data-aos="{{ animations[animationIndex] }}" data-aos-duration="1200">
-                        <a href="{{ mission.url }}"><img class="card-img-top" src="{{ mission.banner_image }}" alt="{{ mission.title }}" /></a>
-                        <div class="card-body p-30">
-                            <h5 class="font-bold">{{ mission.title }}</h5>
-                            <p class="m-t-20">{{ mission.excerpt }}</p>
-                            <a href="{{ mission.url }}" class="linking text-info font-medium m-t-10">Learn More<i class="ti-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-            {% endfor %}
-        </div>
+        <iframe src="https://calendar.google.com/calendar/b/2/embed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=healinghandsmission1%40gmail.com&amp;color=%231B887A&amp;ctz=America%2FChicago" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
     </div>
 </div>
