@@ -1,7 +1,7 @@
-___
+---
+title: Default Event
 layout: event
-banner_image: /images/dsc01939.jpg
-title: Title
-___
+banner_image: "/images/2015-mission.jpg"
+---
 
-Event discription
+Event Description
