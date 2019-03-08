@@ -7,13 +7,15 @@ banner_image: "/images/donate copy.jpg"
 ---
 
 {% include mini-banner.html title=page.banner_title subtitle=page.banner_subtitle image=page.banner_image %}
-
+script src="https://donorbox.org/install-popup-button.js" type="text/javascript" defer></script>
+  <script> window.DonorBox = { widgetLinkClassName: 'custom-dbox-popup' } </script>
+  
 <div class="spacer feature22 bg-light">
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
                 <h2 class="title editable">Support Us</h2>
-                <script src="https://donorbox.org/widget.js" paypalExpress="false"></script><iframe src="https://donorbox.org/embed/general-38" height="685px" width="100%" style="max-width:500px; min-width:310px; max-height:none!important" seamless="seamless" name="donorbox" frameborder="0" scrolling="no" allowpaymentrequest></iframe>
+                  <a href="https://donorbox.org/general-38" class="custom-dbox-popup">Donate Now</a>
             </div>
             <div class="col-lg-6" data-aos="flip-up" data-aos-duration="1200"> <img src="images/dsc09418.jpg" class="rounded img-shadow img-responsive editable" alt="" /> </div>
 
