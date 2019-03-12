@@ -11,6 +11,6 @@ Tickets: $35
 
 When: Saturday May, 11th at 6:00 - 10:30 pm
 
-Where: Blue Line Bar & Grill, Located in the Leafs Ice Center
+Where: Blue Line Bar & Grill, Located in the Leafs Ice Centre
 
-Address: 801 Weseman Drive, West Dundee, IL 60118
+Address: 801 Wesemann Drive, West Dundee, IL 60118
