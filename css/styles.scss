@@ -104,10 +104,12 @@
     z-index: 2;
 }
 
-.navbar-brand img {
+.navbar-brand .logo {
     height: 85px;
 }
+
 .topbar.fixed-header .navbar .navbar-brand .logo {
+    height: 60px;
     left: -30px;
 }
 
