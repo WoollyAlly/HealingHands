@@ -5,13 +5,11 @@ layout: event
 banner_image: "/uploads/fiesta.jpg"
 ---
 
-Healing Hands Medical Mission is Hosting a Trivia Night and all proceeds go to offset the cost of medicine, supplies and transportation for our Guatemalan patients who need medical attention. Arrange a group of 2-10 friends or family and start reviewing for TRIVIA. We're serving a buffet-style Italian dinner featuring 7 rounds of trivia. Our next Medical Mission to Guatemala is scheduled for June and we need your help to make it happen.
+Please join us for our second annual Trivia Night. This event is a casual fun filled night of giving back to those in need. Your ticket includes buffet dinner, 6 rounds of trivia, the opportunity to purchase raffle basket tickets and / or join in a split the pot raffle as well as a prize awarded to the winning table. There will be delicious desserts donated by Indulge Bake Shop that can be purchased with the money going toward the mission. All of what we earn will directly benefit the Healing Hands Medical Mission this June in Guatemala.We have indoor seating as well as some covered outdoor seating.
 
-This event will include a full cash bar and we will have 50/50 Split the Pot and Raffle Gift Baskets available. Desserts available for purchase sponsored by Indulge Bake Shop. Contact Lisa Carani at 630-341-0913
+Tickets: $35
 
-Tickets: $30
-
-When: Saturday May, 5th at 6:00 - 8:00 pm, Trivia at 7:30 pm
+When: Saturday May, 11th at 6:00 - 10:30 pm
 
 Where: Blue Line Bar & Grill, Located in the Leafs Ice Center
 
