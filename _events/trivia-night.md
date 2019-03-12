@@ -15,4 +15,6 @@ Where: Blue Line Bar & Grill, Located in the Leafs Ice Centre
 
 Address: 801 Wesemann Drive, West Dundee, IL 60118
 
-Purchase tickets here: https://www.eventbrite.com/e/healing-hands-medical-mission-trivia-night-tickets-57291263712?aff=ebdshpsearchautocomplete&fbclid=IwAR1xnh1keroaQcPvOz-PhAPzsRRIZHRxAKDjOt4HpsPSOl1N4IJ9KPKgIfU
+Purchase your tickets at eventbrite by clicking the link below:&nbsp;
+
+https://www.eventbrite.com/e/healing-hands-medical-mission-trivia-night-tickets-57291263712?aff=ebdshpsearchautocomplete&fbclid=IwAR1xnh1keroaQcPvOz-PhAPzsRRIZHRxAKDjOt4HpsPSOl1N4IJ9KPKgIfU
