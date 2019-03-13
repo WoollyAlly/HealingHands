@@ -12,7 +12,7 @@
                             <ul class="navbar-nav">
                                 {% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
                                 {% for p in navigation_pages %}
-                                    {{p}}
+                                    {{p.path}}
                                   {% if p.path contains 'page'%}
                                   {% else if p.navigation_weight and p.path contains 'page'%}
                                     <li class="nav-item {% if p.url == page.url %}active{% endif %}"> <a class="nav-link" href="{{p.url}}">{{p.title}}</a></li>
