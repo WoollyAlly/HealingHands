@@ -11,8 +11,8 @@
                         <div class="hover-dropdown">
                             <ul class="navbar-nav">
                                 {% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
-                                {% for p in navigation_pages or p.hidden == true %}
-                                  {% if p.path contains 'page'%}
+                                {% for p in navigation_pages %}
+                                  {% if p.path contains 'page' or p.hidden == true %}
                                   {% else if p.hidden != 'true' and p.navigation_weight and p.path contains 'page'%}
                                     {{p.hidden}}
                                     <li class="nav-item {% if p.url == page.url %}active{% endif %}"> <a class="nav-link" href="{{p.url}}">{{p.title}}</a></li>
