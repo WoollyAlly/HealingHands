@@ -14,6 +14,7 @@
                                 {% for p in navigation_pages %}
                                   {% if p.path contains 'page'%}
                                   {% else if not p.hidden and p.navigation_weight and p.path contains 'page'%}
+                                    {{p.hidden}}
                                     <li class="nav-item {% if p.url == page.url %}active{% endif %}"> <a class="nav-link" href="{{p.url}}">{{p.title}}</a></li>
                                   {% endif %}
                                 {% endfor %}
