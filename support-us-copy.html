@@ -13,7 +13,51 @@ banner_images:
 
 <!--{% include mini-banner.html title=page.banner_title subtitle=page.banner_subtitle image=page.banner_image %}-->
 
-{% include banner.html title=page.banner_title subtitle=page.banner_subtitle images=page.banner_images%}
+<div class="bg-light">
+    <section id="slider-sec" class="slider8">
+        <div id="slider" class="carousel bs-slider control-round indicators-line" data-ride="carousel" data-interval="7000">
+            <ol class="carousel-indicators">
+                {% for image in page.images %}
+                    {% if forloop.first %}
+                        {% assign active = "active"%}
+                    {% else %}
+                        {% assign active = ""%}
+                    {% endif %}
+                    <li data-target="#slider" data-slide-to="{{ forloop.index0 }}" class="{{ active }}"></li>
+                {% endfor %}
+            </ol>
+            <!-- Wrapper For Slides -->
+            <div class="carousel-inner" role="listbox">
+                
+                {% for image in page.images %}
+                    {% if forloop.first %}
+                        {% assign active = "active"%}
+                    {% else %}
+                        {% assign active = ""%}
+                    {% endif %}
+                    <div class="carousel-item {{ active }}">
+                        <div class="bs-slider-overlay"></div>
+                        <img src="{{image.image_path}}" alt="" class="slide-image animated fadeIn" data-animation="animated fadeIn">
+                        <div class="slide-text slide_style_left slide1">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="text-box">
+                                            <script src="https://donorbox.org/widget.js" paypalexpress="false"></script><iframe src="https://donorbox.org/embed/default-1" height="685px" width="100%" style="max-width:500px; min-width:310px; max-height:none!important" seamless="seamless" name="donorbox" frameborder="0" scrolling="no" allowpaymentrequest></iframe>
+                                            <p class="editable">
+                                                Want to be a sponsor or have a fundraising opportunity? <a href="mailto:INFO@HEALINGHANDSMISSION.COM">Shoot us an email</a>.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+</div>
 
 <!--<div class="spacer feature22 bg-light">-->
 <!--    <div class="container">-->
