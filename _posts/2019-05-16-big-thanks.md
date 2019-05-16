@@ -1,8 +1,8 @@
 ---
 title: Big Thanks
-date: 2019-05-16 01:23:00
+date: 2019-05-16 01:23:00 Z
 layout: post
-blog_image_path: /uploads/Michael Scherer-Graham.JPG
+blog_image_path: "/uploads/Michael Scherer-Graham.JPG"
 ---
 
 #### BIG THANKS\!
