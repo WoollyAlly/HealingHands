@@ -1,6 +1,6 @@
 ---
 title: Trivia Night - TBD
-date: Invalid date
+date: 2020-05-02 18:00:00
 layout: event
 banner_image: /uploads/fiesta.jpg
 ---
@@ -9,10 +9,10 @@ Please join us for our third annual Trivia Night. This event is a casual fun fil
 
 Tickets: TBD
 
-When: TBD
+When: Saturday, May 2nd, 2020 6:00pm
 
-Where: TBD
+Where: [St. Charles Moose Family Center 1368](https://stcmoose1368.club/)
 
-Address: TBD
+Address: 2250 Lincoln Hwy, St. Charles, IL 60174
 
 *Check back later for updated details\! Tickets, when available, will be sold through EventBrite.*
