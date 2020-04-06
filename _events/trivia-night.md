@@ -5,13 +5,15 @@ layout: event
 banner_image: "/uploads/fiesta.jpg"
 ---
 
+***Due to the current circumstances with COVID-19, we felt it was best to postpone our fundraiser to a later date. Don't worry, we'll be at the Moose on September 19, 2020, with all of the same fun and entertainment\! ******Thank you all for your understanding and stay healthy.***
+
 Please join us for a great event benefiting the Healing Hands Medical Mission. This event is a casual, fun filled night of giving back to those in need. Your ticket price includes an Italian buffet style dinner, six rounds of trivia, an award for the winning team, a prize for the best decorated table, the opportunity to purchase raffle basket tickets and join in on the split the pot raffle and more. Make sure you stay for an auction at the end of the evening including one of a kind bakery creations and original Guatemalan artwork.
 
 All proceeds offset the costs of medical, dental and vision supplies for the upcoming Mission trip to Guatemala in June 2020. We also provide transportation for patients who need to see a specialist but are unable to get to the medical site on their own.
 
 Tickets are $35 each:&nbsp;**[Buy No](https://www.eventbrite.com/e/healing-hands-medical-mission-3rd-annual-trivia-night-tickets-98541268587?utm-medium=discovery&amp;utm-campaign=social&amp;utm-content=attendeeshare&amp;aff=escb&amp;utm-source=cp&amp;utm-term=listing){: target="_blank"}[w\!](https://www.eventbrite.com/e/healing-hands-medical-mission-3rd-annual-trivia-night-tickets-98541268587?utm-medium=discovery&amp;utm-campaign=social&amp;utm-content=attendeeshare&amp;aff=escb&amp;utm-source=cp&amp;utm-term=listing){: target="_blank"}**
 
-When: Saturday, May 2nd, 2020 6:00pm
+When: Saturday, September 19th, 2020 6:00pm
 
 Where: [St. Charles Moose Family Center 1368](https://stcmoose1368.club/)
 
