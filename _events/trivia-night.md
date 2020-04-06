@@ -1,8 +1,8 @@
 ---
 title: Trivia Night
-date: 2020-05-02 18:00:00 Z
+date: 2020-09-19 18:00:00
 layout: event
-banner_image: "/uploads/fiesta.jpg"
+banner_image: /uploads/fiesta.jpg
 ---
 
 Please join us for a great event benefiting the Healing Hands Medical Mission. This event is a casual, fun filled night of giving back to those in need. Your ticket price includes an Italian buffet style dinner, six rounds of trivia, an award for the winning team, a prize for the best decorated table, the opportunity to purchase raffle basket tickets and join in on the split the pot raffle and more. Make sure you stay for an auction at the end of the evening including one of a kind bakery creations and original Guatemalan artwork.
