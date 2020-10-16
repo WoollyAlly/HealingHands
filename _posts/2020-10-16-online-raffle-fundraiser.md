@@ -1,8 +1,8 @@
 ---
 title: Online Raffle Fundraiser
-date: 2020-10-16 00:00:00
+date: 2020-10-16 00:00:00 Z
 layout: post
-blog_image_path:
+blog_image_path: 
 ---
 
 Healing Hands Medical Mission would like to update you on what has been happening since the pandemic began. Like all of us, our plans abruptly changed. Our medical mission that was scheduled in June as well as our annual Trivia Night Fundraiser had to be postponed.
