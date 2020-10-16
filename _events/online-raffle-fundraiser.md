@@ -1,8 +1,8 @@
 ---
 title: Online Raffle Fundraiser
-date: 2020-12-31 18:00:00
+date: 2020-12-31 18:00:00 Z
 layout: event
-banner_image: /uploads/hhmm-raffle-blog.jpg
+banner_image: "/uploads/hhmm-raffle-blog.jpg"
 ---
 
 ###### To raise funds to continue to best serve our Guatemalan communities, *we are hosting a virtual raffle\! *
