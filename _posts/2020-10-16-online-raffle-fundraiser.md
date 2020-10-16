@@ -1,6 +1,8 @@
 ---
+title: Online Raffle Fundraiser
+date: 2020-10-16 00:00:00 Z
 layout: post
-blog_image_path:
+blog_image_path: 
 ---
 
 Dear Parish Family,
