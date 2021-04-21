@@ -1,13 +1,13 @@
 ---
 title: Third Annual Trivia Night
-date: 2021-06-18 18:00:00 Z
+date: 2021-06-18 18:00:00
 layout: event
-banner_image: "/uploads/2021-hhmm-trivia-hp-banner-1.jpg"
+banner_image: /uploads/2021-hhmm-trivia-hp-banner-1.jpg
 ---
 
 ### **Friday, June 18, 2021 \| 6:00 PM**
 
-###### **St. Charles Loyal Order of Moose&nbsp; \|&nbsp; 2250 Lincoln Hwy, St. Charles, IL 60174**
+###### [**St. Charles Loyal Order of Moose&nbsp; \|&nbsp; 2250 Lincoln Hwy, St. Charles, IL 60174**](https://goo.gl/maps/N45WeqWh935xy8yJ7){: target="_blank" rel="noopener"}
 
 ###### **Picnic begins at 6:00 PM&nbsp; \|&nbsp; Dinner served at 6:30 PM&nbsp; \|&nbsp; Trivia begins at 7:00 PM**
 
