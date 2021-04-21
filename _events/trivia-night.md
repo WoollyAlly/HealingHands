@@ -1,12 +1,16 @@
 ---
-title: "*Cancelled* Trivia Night"
-date: 2020-09-19 18:00:00 Z
+title: 3rd Annual Trivia Night
+date: 2021-06-18 18:00:00
 layout: event
-banner_image: "/uploads/2021-hhmm-trivia-hp-banner-1.jpg"
+banner_image: /uploads/2021-hhmm-trivia-hp-banner-1.jpg
 ---
 
-###### ***Due to the current circumstances with COVID-19, we felt it was best to cancel our fundraiser this year. We hope to see you next year\!&nbsp;******Thank you all for your understanding and stay healthy\!***
+###### **Please join us** for our Third Annual Trivia Night\!
 
-Please join us for a great event benefiting the Healing Hands Medical Mission. This event is a casual, fun-filled night of giving back to those in need. Your ticket price includes an Italian buffet-style dinner, six rounds of trivia, an award for the winning team, a prize for the best decorated table, the opportunity to purchase raffle basket tickets and join in on the split the pot raffle and more. Make sure you stay for an auction at the end of the evening including one of a kind bakery creations and original Guatemalan artwork.
+> **Friday, June 18, 2021 \| 6:00 PM**<br>St. Charles Loyal Order of Moose&nbsp; \|&nbsp; 2250 Lincoln Hwy, St. Charles, IL 60174<br>Picnic begins at 6:00 PM&nbsp; \|&nbsp; Dinner served at 6:30 PM&nbsp; \|&nbsp; Trivia begins at 7:00 PM
 
-All proceeds offset the costs of medical, dental, and vision supplies for our next mission trip to Guatemala. We also provide transportation for patients who need to see a specialist but are unable to get to the medical site on their own.
+This event is a casual, fun-filled night of giving back to those in need and will be held outdoors in a covered pavillion and tent—rain or shine. Your ticket includes a pizza and salad buffet, six rounds of trivia, a contest for the best decorated picnic table, the opportunity to purchase raffle basket and split-the-pot raffle tickets, a bonfire, and live Latin music. Stick around for an auction at the end of the evening including bakery creations and original Guatemalan handbags.
+
+**All of the proceeds go to offset the cost of medical and dental supplies, and to provide transportation for our referral patients. We also aim to fund the construction of a dedicated eye care suite.**
+
+*Tickets are $35 each and can be purchased starting on April 26.*
