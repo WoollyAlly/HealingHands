@@ -1,8 +1,8 @@
 ---
-title: '*Cancelled* Trivia Night'
-date: 2020-09-19 18:00:00
+title: "*Cancelled* Trivia Night"
+date: 2020-09-19 18:00:00 Z
 layout: event
-banner_image: /uploads/2021-hhmm-trivia-hp-banner.jpg
+banner_image: "/uploads/2021-hhmm-trivia-hp-banner.jpg"
 ---
 
 ###### ***Due to the current circumstances with COVID-19, we felt it was best to cancel our fundraiser this year. We hope to see you next year\!&nbsp;******Thank you all for your understanding and stay healthy\!***
