@@ -1,8 +1,8 @@
 ---
 title: 3rd Annual Trivia Night
-date: 2021-06-18 18:00:00
+date: 2021-06-18 18:00:00 Z
 layout: event
-banner_image: /uploads/2021-hhmm-trivia-hp-banner-1.jpg
+banner_image: "/uploads/2021-hhmm-trivia-hp-banner-1.jpg"
 ---
 
 ###### **Please join us** for our Third Annual Trivia Night\!
