@@ -25,4 +25,4 @@ Please join us for our Third Annual Trivia Night\! This event is a casual, fun-f
 
 *Tickets are $35 each and can be purchased through Eventbrite.*
 
-> [**Buy Now\!**](https://www.eventbrite.com/e/trivia-night-3rd-annual-tickets-151870385411){: target="_blank" rel="noopener"}
+> [**Buy Your Tickets Now\!**](https://www.eventbrite.com/e/trivia-night-3rd-annual-tickets-151870385411){: target="_blank" rel="noopener"}
