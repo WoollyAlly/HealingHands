@@ -23,4 +23,6 @@ Please join us for our Third Annual Trivia Night\! This event is a casual, fun-f
 
 ###### **All of the proceeds go to offset the cost of medical and dental supplies, and to provide transportation for our referral patients. We also aim to fund the construction of a dedicated eye care suite.**
 
-*Tickets are $35 each and can be purchased starting on April 26.*
+*Tickets are $35 each and can be purchased through Eventbrite.*
+
+> [**Buy Now\!**](https://www.eventbrite.com/e/trivia-night-3rd-annual-tickets-151870385411){: target="_blank" rel="noopener"}
