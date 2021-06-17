@@ -1,9 +1,10 @@
 ---
 title: Where Does The Money That We Raise Go
-date: 2021-06-17 00:00:00
+date: 2021-06-17 00:00:00 Z
 layout: post
-blog_image_path:
+blog_image_path: 
 ---
+
 Healing Hands Medical Mission’s Third Annual Trivia Fundraiser is fast approaching\!
 
 The event is coming together as another spectacular evening of good times including grooving to the beat of live Latin Music, good food and drinks, and an intense Trivia competition with outstanding prizes\! I have been asked, **"Where does the money that we raise go?"**
