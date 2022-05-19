@@ -1,7 +1,7 @@
 ---
 title: March 2022 Mission
 layout: mission
-banner_image: /uploads/fb-img-1649911512962.jpg
+banner_image: "/uploads/fb-img-1649911512962.jpg"
 ---
 
 Although this mini-mission was small in size, they sure were mighty\! This group of 14 saw nearly 300 patients in three days and three communities, ranging from 8 months to 90+ years. We were able to serve the communities of Sahila, Florido, and La Libertad. Most clinic days were held in large halls/community centers, but amazingly, one day we were actually in someone's garage. And it worked quite well.&nbsp;
