@@ -1,6 +1,6 @@
 ---
 title: Annual Appeal Letter November 2022
-date: 2022-11-20 19:36:48.289000000 Z
+date: 2022-11-20 19:36:48 Z
 layout: post
 blog_image_path: "/uploads/screenshot-2022-11-20-1-32-54-pm.png"
 ---
