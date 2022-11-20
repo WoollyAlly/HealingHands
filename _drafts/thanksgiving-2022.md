@@ -1,6 +1,6 @@
 ---
 title: Thanksgiving 2022
-date: 2022-11-20 19:43:44.849000000 Z
+date: 2022-11-20 19:43:44 Z
 layout: post
 blog_image_path: "/uploads/whatsapp-image-2022-03-25-at-10-56-35-am.jpeg"
 ---
