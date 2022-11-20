@@ -1,6 +1,6 @@
 ---
 title: Black Friday 2022
-date: 2022-11-20 19:42:26.050000000 Z
+date: 2022-11-20 19:42:26 Z
 layout: Black Friday
 blog_image_path: "/uploads/img-20220324-wa0052.jpg"
 ---
