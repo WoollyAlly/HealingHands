@@ -1,14 +1,13 @@
 ---
 title: Fourth Annual Trivia Night
 layout: event
-banner_image: "/uploads/whatsapp-image-2022-11-12-at-4-21-00-pm.jpeg"
+banner_image: /uploads/whatsapp-image-2022-11-12-at-4-21-00-pm.jpeg
 ---
-
 Please join us for our Fourth Annual Trivia Night\! Your ticket includes a buffet-style Italian dinner, six rounds of trivia, a contest for best decorated table, the opportunity to purchase raffle basket tickets and join in on a split-the-pot raffle. Please make sure you stay for an auction at the end of the evening including specialty baked goods and original Guatemalan artwork\!&nbsp;
 
 **All proceeds go to offset the cost of medical and dental supplies, and to provide transportation for our referral patients. We also aim to fund a portable ultrasound machine for the local hospital.&nbsp;**
 
-Tickets at $50 each and can be purchased starting January 1st through our website, Facebook page, or Eventbrite.&nbsp;
+Tickets are $50 each and can be purchased starting January 1st through our website, Facebook page, or Eventbrite.&nbsp;
 
 **INFO:&nbsp;**
 
