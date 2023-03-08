@@ -1,7 +1,10 @@
 ---
+title: Newsletter Winter 2023
+date: 2023-03-08 20:50:38.721000000 Z
 layout: post
-blog_image_path: /uploads/winter-2023-hhmm-newsletter.png
+blog_image_path: "/uploads/winter-2023-hhmm-newsletter.png"
 ---
+
 # HEALING HANDS MEDICAL MISSION NEWSLETTER
 
 WINTER 2023
