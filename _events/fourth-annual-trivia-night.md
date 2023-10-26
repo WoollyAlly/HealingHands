@@ -1,8 +1,9 @@
 ---
 title: Fourth Annual Trivia Night
 layout: event
-banner_image: /uploads/whatsapp-image-2022-11-12-at-4-21-00-pm.jpeg
+banner_image: "/uploads/whatsapp-image-2022-11-12-at-4-21-00-pm.jpeg"
 ---
+
 **When: January 28th, 2023- Doors open at 6:00 PM, Dinner served at 6:30 PM, Trivia begins at 7:00 PM**&nbsp;
 
 **Where: St. Charles Loyal Order of Moose, 2250 Lincoln Hwy, St. Charles, IL 60174**
