@@ -1,10 +1,7 @@
 ---
-title: Investing In Hope Transforming Lives Together
-date: 2023-11-28 00:00:00 Z
 layout: 'Investing in Hope: Transforming Lives Together'
-blog_image_path: "/uploads/img-20230623-wa0051.jpg"
+blog_image_path: /uploads/img-20230623-wa0051.jpg
 ---
-
 Dear Supporters,
 
 My name is Lisa Carani, I’m a Nurse Practitioner and I am honored to serve as the new President of Healing Hands Medical Mission.&nbsp; As our team looks forward to our upcoming mission trips in March and June of 2024, I wanted to share an experience with you from our March 2023 mission. Of course, without the help of donors like you, our missions could not happen. We are so grateful for your financial support and prayers.&nbsp; This Christmas season, please prayerfully consider our mission and help us continue to provide the kind of care described below.&nbsp;
@@ -29,6 +26,6 @@ My team and I cannot express our gratitude for your continued support. Donors li
 
 Blessings,&nbsp;
 
-Lisa Carani, APRN&nbsp;&nbsp;
+Lisa Carani, APRN &nbsp;
 
 President
