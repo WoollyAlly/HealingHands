@@ -1,9 +1,8 @@
 ---
 title: '5th Annual Trivia Night Fundraiser! '
 layout: event
-banner_image: "/images/donate.jpg"
+banner_image: /images/donate.jpg
 ---
-
 Sail away for Sweetheart Day!
 
 Save the date for our annual trivia night fundraiser- February 10th, 2024
@@ -21,4 +20,4 @@ The night will include:
 * Jimmy Buffett music&nbsp;
 * And more!
 
-Check back here for ticket information, coming soon!
+Say tuned- tickets on sale the first week of January!
