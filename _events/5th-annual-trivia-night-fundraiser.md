@@ -1,8 +1,9 @@
 ---
 title: '5th Annual Trivia Night Fundraiser! '
 layout: event
-banner_image: /images/donate.jpg
+banner_image: "/images/donate.jpg"
 ---
+
 Sail away for Sweetheart Day!
 
 Save the date for our annual trivia night fundraiser- February 10th, 2024
