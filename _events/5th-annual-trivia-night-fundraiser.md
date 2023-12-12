@@ -1,10 +1,9 @@
 ---
 title: '5th Annual Trivia Night Fundraiser! '
 layout: event
-banner_image: "/images/donate.jpg"
+banner_image: /images/donate.jpg
 ---
-
-###### ![](/uploads/sail-away-for-sweetheart-day-w-eventbrite-qr-code-updated-1-1.png){: width="1545" height="2000"}
+###### ![](/uploads/sail-away-for-sweetheart-day-w-eventbrite-qr-code-updated-2.png){: width="773" height="1000"}
 
 Doors open at 6:30, dinner is served at 7:00
 
