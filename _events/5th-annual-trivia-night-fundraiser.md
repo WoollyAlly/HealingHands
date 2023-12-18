@@ -1,8 +1,9 @@
 ---
 title: '5th Annual Trivia Night Fundraiser! '
 layout: event
-banner_image: /images/donate.jpg
+banner_image: "/images/donate.jpg"
 ---
+
 ​​​​​​![](/uploads/insta-post-1.png){: width="1080" height="1080"}
 
 Doors open at 6:00pm, dinner is served at 6:30pm
