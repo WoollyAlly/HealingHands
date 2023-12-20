@@ -1,10 +1,11 @@
 ---
 title: 'Fifth Annual Trivia Night Fundraiser! '
 layout: event
-banner_image: "/images/donate.jpg"
+banner_image: /images/donate.jpg
 ---
+![](/uploads/save-the-date-mobile.png){: width="1080" height="1920"}
 
-​​​​![](/uploads/insta-post-1-1.png){: width="1080" height="1080"}Doors open at 6:00pm, dinner is served at 6:30pm
+​​​​Doors open at 6:00pm, dinner is served at 6:30pm
 
 Be sure to check back for more details as we get closer to the event! Spend an evening in Margaritaville as you and your sweetheart (and friends, family, teammates) put your trivia skills to the test, parrot-head style!
 
