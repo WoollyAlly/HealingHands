@@ -1,9 +1,8 @@
 ---
 title: 'Fifth Annual Trivia Night Fundraiser! '
 layout: event
-banner_image: "/images/donate.jpg"
+banner_image: /uploads/hhmm-trivia-night.jpg
 ---
-
 ​​​​Doors open at 6:00pm, dinner is served at 6:30pm
 
 Starting January 2nd, click [here](https://www.eventbrite.com/e/healing-hands-medical-mission-5th-annual-trivia-night-tickets-776270494947)&nbsp; for tickets!
