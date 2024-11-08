@@ -1,12 +1,11 @@
 ---
-title: Default Event
+title: Healing Hands Annual Fundraiser- Bingo Night!
 layout: event
-banner_image: "/images/2015-mission.jpg"
+banner_image: /images/2015-mission.jpg
 ---
+### Join us on February 1st, 2025 for a night of bingo!
 
-# Healing Hands Annual Fundraiser- Bingo Night!
-
-Stay tuned for more details- this year we're changing things up a bit with Bingo!
+Stay tuned for more details- this year we’re changing things up a bit with Bingo!
 
 Save the Date: February 1st, 2025
 
